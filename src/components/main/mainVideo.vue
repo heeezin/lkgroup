@@ -1,10 +1,17 @@
 <template>
-    <div class="section" style="background-color: white;">1</div>
-    <div class="section" style="background-color: skyblue;">2</div>
+    <div class="section" style="background-color: white;">
+      <video controls autoplay muted v-bind="player">
+        <source src="../../assets/images/20221104_175336466.mp4" width="100vw"/>
+      </video>
+      <button @click="unmute()">스피커</button>
+    </div>
+    <intro/>
     <div class="section" style="background-color: pink;">3</div>
     <div class="section" style="background-color: palegoldenrod;">4</div>
 </template>
 <script>
+import intro from "../main/intro.vue"
+
  window.onload = function(){
       const elm = document.querySelectorAll('.section');
       const elmCount = elm.length;
@@ -46,6 +53,19 @@
           window.scrollTo({top:moveTop, left:0, behavior:'smooth'});
         });
       });
+    }
+    export default {
+      components: {
+        intro
+      },
+      data: () =>({
+        // mainV:false
+      }),
+      methods:{
+        unmute(){
+          this.player.muted = false;
+        }
+      }
     }
 </script>
 <style lang="scss" scoped>

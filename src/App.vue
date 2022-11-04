@@ -1,17 +1,17 @@
 <template>
   <Header/>
-  <main-slide/>
+  <main-video/>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
-import MainSlide from './components/main/mainSlide.vue';
+import mainVideo from './components/main/mainVideo.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
-    MainSlide
+    mainVideo
   }
 }
 </script>
