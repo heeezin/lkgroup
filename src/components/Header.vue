@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="header_inner"
-            @mouseleave="[( gnb1= false ), (gnb2=false)]"
+            @mouseleave="[( gnb1= false ), ( gnb2=false )]"
         >
             <div class="logo">LK PARTNERS</div>
             <nav>
