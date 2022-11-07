@@ -1,5 +1,5 @@
 <template>
-    <div class="section">
+    <div class="section" key="down" v-if="showHeader">
       <video controls autoplay loop muted id="player">
         <source 
             src="../../assets/images/20221104_175336466.mp4"
@@ -15,6 +15,7 @@
 </template>
 <script>
 import intro from "../main/intro.vue"
+import Header from "../Header.vue"
 
  window.onload = function(){
       const elm = document.querySelectorAll('.section');
@@ -60,10 +61,12 @@ import intro from "../main/intro.vue"
     }
     export default {
       components: {
-        intro
+        intro,
+        Header
       },
       data: () =>({
-        player : true
+        player : true,
+        showHeader: true
       }),
       methods:{
         unmute() {

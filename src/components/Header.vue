@@ -1,6 +1,7 @@
 <template>
     <header 
         @mouseleave="[( gnb1= false ), ( gnb2=false )]"
+        :class="{'hidden_header': !showHeader}"
     >
         <div class="header_inner">
             <div class="logo">
@@ -45,12 +46,41 @@
     </header>
 </template>
 <script>
+const OFFSET = 10
+
 export default {
     data: () => ({
         gnb1: false,
         gnb2: false,
-    })
-    
+        showHeader: true,
+        lastScrollPosition: 0,
+        scrollValue: 0
+    }),
+    mounted() {
+        this.lastScrollPosition = window.pageYOffset
+    window.addEventListener('scroll', this.onScroll)
+    const viewportMeta = document.createElement('meta')
+    viewportMeta.name = 'viewport'
+    viewportMeta.content = 'width=device-width, initial-scale=1'
+    document.head.appendChild(viewportMeta)
+  },
+
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.onScroll)
+  },
+
+  methods: {
+    onScroll () {
+      if (window.pageYOffset < 0) {
+        return
+      }
+      if (Math.abs(window.pageYOffset - this.lastScrollPosition) < OFFSET) {
+        return
+      }
+      this.showHeader = window.pageYOffset < this.lastScrollPosition
+      this.lastScrollPosition = window.pageYOffset
+    }
+    }
 }
 </script>
 <style lang="scss" scoped>

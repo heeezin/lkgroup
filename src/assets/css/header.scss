@@ -38,3 +38,6 @@ header {
         background: #fff;
     }
 }
+header.hidden_header {
+    transform: translate3d(0, -100%, 0);
+}
