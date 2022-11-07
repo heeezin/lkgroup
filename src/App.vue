@@ -1,5 +1,5 @@
 <template>
-  <Header/>
+  <Header :scrollDirection="scrollDirection"/>
   <main-video/>
 </template>
 
@@ -12,7 +12,10 @@ export default {
   components: {
     Header,
     mainVideo
-  }
+  },
+  data: () => ({ 
+  })
+  
 }
 </script>
 

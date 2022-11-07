@@ -1,28 +1,30 @@
 header {
-    
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
+    background: #fff;
+    transition: 0.1s all ease-out;
+    
 
     .header_inner {
-        max-width: 1920px;
+        max-width: 1200px;
+        height: 80px;
         display: flex;
         align-items: center;
+        justify-content: space-between;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 30px;
     }
     .logo { width: 20%;}
     nav {
         width: 80%;
         ul.nav {
             display: flex;
-            justify-content: space-between;
             li {
                 width: 20%;
                 a{
-                    display: block;
                 }
             }
         }
@@ -30,5 +32,9 @@ header {
     ul.subNav{
         li{
         }
+    }
+    .sub_inner {
+        width: 100%;
+        background: #fff;
     }
 }

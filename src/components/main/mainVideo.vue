@@ -1,13 +1,17 @@
 <template>
-    <div class="section" style="background-color: white;">
-      <video controls autoplay muted v-bind="player">
-        <source src="../../assets/images/20221104_175336466.mp4" width="100vw"/>
+    <div class="section">
+      <video controls autoplay loop muted id="player">
+        <source 
+            src="../../assets/images/20221104_175336466.mp4"
+        />
       </video>
-      <button @click="unmute()">스피커</button>
+      <div class="playBtn">
+        <button v-on:click="unmute()"></button>
+      </div>
     </div>
     <intro/>
-    <div class="section" style="background-color: pink;">3</div>
-    <div class="section" style="background-color: palegoldenrod;">4</div>
+    <div class="section" style="background-color: pink;"></div>
+    <div class="section" style="background-color: palegoldenrod;"></div>
 </template>
 <script>
 import intro from "../main/intro.vue"
@@ -59,27 +63,42 @@ import intro from "../main/intro.vue"
         intro
       },
       data: () =>({
-        // mainV:false
+        player : true
       }),
       methods:{
-        unmute(){
-          this.player.muted = false;
+        unmute() {
+          player.muted = !player.muted;
         }
       }
     }
 </script>
 <style lang="scss" scoped>
-*{
-    transition-duration: 0.8s;
-}
+@import url('../../assets/css/reset.scss');
+
     body{
         margin: 0;
         padding: 0;
     }
-    div{
-        width: 100%;
-        height: 100vh;
-        font-size: 32px; 
-        text-align: center;
+    .section {
+      width: 100%;
+      height: 100vh;
+      font-size: 32px; 
+      text-align: center;
+      position: relative;
+      .playBtn {
+        position: absolute;
+        width: 50px;
+        bottom: 10%;
+        right: 10%;
+        button {
+          background: url('../../assets/images/playbtn.png') no-repeat center #fff;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+      }
+    }
+    video {
+      width: 100%;
     }
 </style>
