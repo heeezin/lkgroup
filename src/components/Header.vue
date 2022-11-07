@@ -9,18 +9,16 @@
             </div>
             <nav>
                 <ul class="nav">
-                    <li 
-                        @mouseleave="( gnb1= false )"
+                    <li
                     >
                         <a href="#"
-                            @mouseover="( gnb1 = true)"
+                            @mouseover="[( gnb1 = true ),( gnb2 = false )]"
                         >ABOUT</a>
                     </li>
                     <li
-                        @mouseleave="( gnb2= false )"
                     >
                         <a href="#"
-                            @mouseover="( gnb2 = true )"
+                            @mouseover="[( gnb2 = true ),( gnb1 = false )]"
                         >BUSINESS</a>
                     </li>
                     <li><a href="#">CREATOR</a></li>
