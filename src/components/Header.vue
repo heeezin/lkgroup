@@ -1,41 +1,65 @@
 <template>
     <header 
-        @mouseleave="[( gnb1= false ), ( gnb2=false )]"
         :class="{'hidden_header': !showHeader}"
+        @mouseover="subInner=true"
+        @mouseleave="subInner=false"
     >
         <div class="header_inner">
             <div class="logo">
-                <a href="/">LK PARTNERS</a>
+                <a href="/"><img src="../assets/images/logo.png" alt="logo"></a>
             </div>
             <nav>
                 <ul class="nav">
                     <li
                     >
                         <a href="#"
-                            @mouseover="[( gnb1 = true ),( gnb2 = false )]"
+                            @mouseover="navToggle(1)"
+
                         >ABOUT</a>
                     </li>
                     <li
                     >
                         <a href="#"
-                            @mouseover="[( gnb2 = true ),( gnb1 = false )]"
+                            @mouseover="navToggle(2)"
+
+
                         >BUSINESS</a>
                     </li>
-                    <li><a href="#">CREATOR</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li>
+                        <a href="#"
+                        @mouseover="navToggle(3)"
+
+                        >CREATOR</a></li>
+                    <li><a href="#" 
+                        @mouseover="navToggle(4)"
+
+                         >NEWS</a></li>
+                    <li><a href="#"
+                        @mouseover="navToggle(5)"
+
+                         >CONTACT</a></li>
                 </ul>
                 <font-awesome-icon icon="fa-solid fa-user-secret" />
                 <font-awesome-icon icon="fa-solid fa-plus" />
                 <font-awesome-icon icon="fa-regular fa-bars" />
             </nav>
         </div>
-        <div class="sub_inner">
-            <ul class="subNav" v-show="gnb1">
+        <div class="sub_inner"
+            v-show="subInner"
+        >
+            <ul class="subNav" 
+                @mouseover="navToggle(1)"
+                v-if="navNum === 1 || navOn"
+
+            >
                 <li><a href="#">LK PARTNERS INC.</a></li>
                 <li><a href="#">HISTORY</a></li>
             </ul>
-            <ul class="subNav" v-show="gnb2">
+            <ul class="subNav" 
+                @mouseover="navToggle(2)"
+                v-if="navNum === 2 || navOn"
+
+            >
                 <li><a href="#">MEFLEX</a></li>
                 <li><a href="#">ENTERTAINMENT</a></li>
                 <li><a href="#">AD/MARKETING</a></li>
@@ -44,15 +68,19 @@
     </header>
 </template>
 <script>
+
 const OFFSET = 10
 
 export default {
     data: () => ({
-        gnb1: false,
-        gnb2: false,
+        // gnb1: false,
+        // gnb2: false,
+        subInner: false,
         showHeader: true,
         lastScrollPosition: 0,
-        scrollValue: 0
+        scrollValue: 0,
+        navNum: 1,
+        navOn: false,
     }),
     mounted() {
         this.lastScrollPosition = window.pageYOffset
@@ -77,7 +105,12 @@ export default {
       }
       this.showHeader = window.pageYOffset < this.lastScrollPosition
       this.lastScrollPosition = window.pageYOffset
-    }
+    },
+    navToggle(e) {
+        this.navOn = !this.navOn;
+        if(e) this.navNum = e;
+    },
+      
     }
 }
 </script>

@@ -9,13 +9,8 @@
         <button v-on:click="unmute()"></button>
       </div>
     </div>
-    <intro/>
-    <div class="section" style="background-color: pink;"></div>
-    <div class="section" style="background-color: palegoldenrod;"></div>
 </template>
 <script>
-import intro from "../main/intro.vue"
-import Header from "../Header.vue"
 
  window.onload = function(){
       const elm = document.querySelectorAll('.section');
@@ -61,8 +56,6 @@ import Header from "../Header.vue"
     }
     export default {
       components: {
-        intro,
-        Header
       },
       data: () =>({
         player : true,
@@ -78,30 +71,29 @@ import Header from "../Header.vue"
 <style lang="scss" scoped>
 @import url('../../assets/css/reset.scss');
 
-    body{
-        margin: 0;
-        padding: 0;
+body{
+    margin: 0;
+    padding: 0;
+}
+.section {
+  width: 100%;
+  height: 100vh;
+  font-size: 32px; 
+  position: relative;
+  .playBtn {
+    position: absolute;
+    width: 50px;
+    bottom: 10%;
+    right: 10%;
+    button {
+      background: url('../../assets/images/playbtn.png') no-repeat center #fff;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
     }
-    .section {
-      width: 100%;
-      height: 100vh;
-      font-size: 32px; 
-      text-align: center;
-      position: relative;
-      .playBtn {
-        position: absolute;
-        width: 50px;
-        bottom: 10%;
-        right: 10%;
-        button {
-          background: url('../../assets/images/playbtn.png') no-repeat center #fff;
-          width: 50px;
-          height: 50px;
-          border-radius: 50%;
-        }
-      }
-    }
-    video {
-      width: 100%;
-    }
+  }
+}
+video {
+  width: 100%;
+}
 </style>

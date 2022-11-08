@@ -1,6 +1,23 @@
 * {
     transition: all 0.3s;
   }
+  /* font */
+  body,
+button,
+input,
+select,
+table,
+textarea,
+address {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.4;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+:root {
+    --point: #974D35;
+    --text: #fff;
+  }
 
     html,
     body,
@@ -92,5 +109,16 @@ a {
     text-decoration:none;
     color: #737373;
 }
-button{ background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer; }
-
+button { 
+    background: inherit; 
+    border:none; 
+    box-shadow:none; 
+    border-radius:0; 
+    padding:0; 
+    overflow:visible; 
+    cursor:pointer; 
+}
+textarea, input {
+    border: none;
+    box-shadow:none; 
+}

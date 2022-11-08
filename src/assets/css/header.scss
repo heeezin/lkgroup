@@ -5,8 +5,9 @@ header {
     left: 0;
     z-index: 100;
     background: #fff;
-    transition: 0.1s all ease-out;
-    
+    transition: 0.3s all ease-out;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
 
     .header_inner {
         max-width: 1200px;
@@ -16,15 +17,27 @@ header {
         justify-content: space-between;
         margin: 0 auto;
         padding: 0 30px;
+        .logo { 
+            width: 20%;
+            a {
+                display: block;
+                img {
+                    width: 10vw;
+                }
+            }
+        }
+
     }
-    .logo { width: 20%;}
     nav {
         width: 80%;
         ul.nav {
             display: flex;
             li {
                 width: 20%;
+                text-align: center;
                 a{
+                    color: var(--point);
+                    padding: 10%;
                 }
             }
         }
@@ -35,7 +48,7 @@ header {
     }
     .sub_inner {
         width: 100%;
-        background: #fff;
+        height: 200px;
     }
 }
 header.hidden_header {

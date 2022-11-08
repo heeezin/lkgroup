@@ -1,25 +1,18 @@
 <template>
-    <div class="section" style="background-color: skyblue;">
-        <div class="intro main">
-            <div class="intro_inner main_inner">
+    <div class="section" style="background-color: palegoldenrod;">
+        <div class="enter main">
+            <div class="enter_inner main_inner">
                 <div class="main_tit">
-                    <h3>WE ARE LK PARTNERS INC.</h3>
+                    <h3>종합 엔터테인먼트 ‘MEFLEX ENT’</h3>
                 </div> 
                 <div class="main_txt">
                     <p>
-                        엘케이파트너스아이엔씨는
-                        4차산업혁명 시대에 발 맞춰
-                        블록체인 기반으로 유명 작가와
-                        아티스트, 셀럽들간의 협력을
-                        통하여 실물 미술 작품 및 NFT를
-                        발행하고 마켓플레이스를
-                        운영하여 블록체인과 엔터테인먼트
-                        사업을 트렌디하게 하나로 묶어
-                        새로운 시장과 생태계를 만들어가는
-                        회사입니다.
+                        배우 매니지먼트, 아이돌 트레이닝,
+                        크리에이터 협업 및 에이전시 등
+                        종합 엔터테인먼트 운영
                     </p>
                 </div>
-                <div class="intro_btn main_btn">
+                <div class="enter_btn main_btn">
                     <a href="/">자세히 보기</a>
                 </div>
             </div>
@@ -33,7 +26,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import url('../../assets/css/main.scss');
+
 .main {
     display: flex;
     justify-content: center;
