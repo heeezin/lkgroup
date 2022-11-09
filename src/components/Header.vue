@@ -13,29 +13,30 @@
                     <li
                     >
                         <a href="#"
-                            @mouseover="navToggle(1)"
+                            @mouseover="activetab=1" v-bind:class="[activetab === 1 ? 'active' : '']"
 
                         >ABOUT</a>
                     </li>
                     <li
                     >
                         <a href="#"
-                            @mouseover="navToggle(2)"
+                        @mouseover="activetab=2" v-bind:class="[activetab === 2 ? 'active' : '']"
 
 
                         >BUSINESS</a>
                     </li>
                     <li>
                         <a href="#"
-                        @mouseover="navToggle(3)"
+                        @mouseover="activetab=3" v-bind:class="[activetab === 3 ? 'active' : '']"
+
 
                         >CREATOR</a></li>
                     <li><a href="#" 
-                        @mouseover="navToggle(4)"
 
                          >NEWS</a></li>
                     <li><a href="#"
-                        @mouseover="navToggle(5)"
+                        
+
 
                          >CONTACT</a></li>
                 </ul>
@@ -47,17 +48,16 @@
         <div class="sub_inner"
             v-show="subInner"
         >
-            <ul class="subNav" 
-                @mouseover="navToggle(1)"
-                v-if="navNum === 1 || navOn"
+            <ul class="subNav aboutSub" 
+            v-if="activetab === 1" 
+
 
             >
                 <li><a href="#">LK PARTNERS INC.</a></li>
                 <li><a href="#">HISTORY</a></li>
             </ul>
-            <ul class="subNav" 
-                @mouseover="navToggle(2)"
-                v-if="navNum === 2 || navOn"
+            <ul class="subNav businessSub" 
+            v-if="activetab === 2" 
 
             >
                 <li><a href="#">MEFLEX</a></li>
@@ -72,6 +72,7 @@
 const OFFSET = 10
 
 export default {
+    el: 'header',
     data: () => ({
         // gnb1: false,
         // gnb2: false,
@@ -81,6 +82,7 @@ export default {
         scrollValue: 0,
         navNum: 1,
         navOn: false,
+        activetab: 1,
     }),
     mounted() {
         this.lastScrollPosition = window.pageYOffset

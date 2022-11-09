@@ -15,7 +15,7 @@
                         </div>
                         <div class="ms mail_form">
                             <span>MESSAGE</span>
-                            <textarea name="MESSAGE" id="message" cols="50" rows="10" placeholder="MESSAGE"></textarea>
+                            <textarea name="MESSAGE" id="message" cols="50" rows="10"></textarea>
                         </div>
                         <div class="mail_submit">
                             <button 

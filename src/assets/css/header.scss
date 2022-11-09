@@ -22,7 +22,7 @@ header {
             a {
                 display: block;
                 img {
-                    width: 10vw;
+                    max-width: 158px;
                 }
             }
         }
@@ -44,11 +44,27 @@ header {
     }
     ul.subNav{
         li{
+            a {
+                display: block;
+                padding-top: 1vw;
+            }
         }
     }
     .sub_inner {
         width: 100%;
-        height: 200px;
+        height: 187px;
+        display: flex;
+        justify-content: center;
+            a {
+                color: var(--point);
+
+            }
+            .aboutSub {
+                width: 31%;
+            }
+            .businessSub {
+                width: 12%;
+            }
     }
 }
 header.hidden_header {
