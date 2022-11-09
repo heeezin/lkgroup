@@ -1,5 +1,6 @@
 <template>
-    <div class="section" style="background-color: palegoldenrod;">
+    <div class="section">
+        <div class="imageColor"></div>
         <div class="enter main">
             <div class="enter_inner main_inner">
                 <div class="main_tit">
@@ -26,7 +27,20 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@import url('../../assets/css/main.scss');
 
+.section {
+    background: url("../../assets/images/enter.png") no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+    .imageColor {
+        background-color: rgba(0,0,0,0.6);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+}
 .main {
     display: flex;
     justify-content: center;
@@ -34,7 +48,7 @@ export default {
     .main_inner {
         font-family: 'Montserrat', sans-serif;
         font-size: 2rem;
-        width: 60%;
+        width: 50%;
         color: #fff;
         padding-top: 20vw;
         .main_tit{

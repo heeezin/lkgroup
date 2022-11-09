@@ -1,5 +1,6 @@
 <template>
-    <div class="section" style="background-color: gray;">
+    <div class="section">
+        <div class="imageColor"></div>
         <div class="shop main">
             <div class="shop_inner main_inner">
                 <div class="main_tit">
@@ -22,6 +23,19 @@
 <script>
 </script>
 <style lang="scss" scoped>
+@import url('../../assets/css/main.scss');
+.section {
+    background: url("../../assets/images/ad.png") no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+    .imageColor {
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+}
 .main {
     display: flex;
     justify-content: flex-end;
@@ -29,7 +43,7 @@
     .main_inner {
         font-family: 'Montserrat', sans-serif;
         font-size: 2rem;
-        width: 50%;
+        width: 51%;
         color: #fff;
         padding: 20vw 5vw;
         .main_tit{

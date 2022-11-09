@@ -1,5 +1,12 @@
 <template>
-    <div class="section" style="background-color: pink;">
+    <div class="section">
+        <div class="imageColor"></div>
+        <div class="shopImgBack">
+            <div class="shopImg">
+                <img src="../../assets/images/shop1.png" alt="">
+                <img src="../../assets/images/shop2.png" alt="">
+            </div>
+        </div>
         <div class="shop main">
             <div class="shop_inner main_inner">
                 <div class="main_tit">
@@ -22,6 +29,40 @@
 <script>
 </script>
 <style lang="scss" scoped>
+@import url('../../assets/css/main.scss');
+.section {
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    .imageColor {
+        background-color: rgba(0,0,0,0.3);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .shopImgBack {
+        background: -webkit-linear-gradient(140deg, rgb(81, 25, 210), rgb(135, 20, 135));
+        z-index: -2;
+        position: absolute;
+        width: 550px;
+        height: 550px;
+        border-radius: 50%;
+        left: 13%;
+        top: 16%;
+        .shopImg {
+            position: absolute;
+            left: 40px;
+            img {
+                width: 255px;
+                height: 460px;
+                &:last-child {
+                    transform: rotate(10deg);
+                }
+            }
+        }
+    }
+}
 .main {
     display: flex;
     justify-content: flex-end;

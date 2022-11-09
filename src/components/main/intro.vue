@@ -1,5 +1,6 @@
 <template>
-    <div class="section" style="background-color: skyblue;">
+    <div class="section">
+        <div class="imageColor"></div>
         <div class="intro main">
             <div class="intro_inner main_inner">
                 <div class="main_tit">
@@ -33,35 +34,18 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import url('../../assets/css/main.scss');
-.main {
-    display: flex;
-    justify-content: center;
-    height: 50vw;
-    .main_inner {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2rem;
-        width: 60%;
-        color: #fff;
-        padding-top: 20vw;
-        .main_tit{
-        }
-        .main_txt{
-            padding: 2vw 0;
-        }
-        .main_btn {
-            width: 200px;
-            background: var(--point);
-            border-radius: 10px;
-            font-size: 1.5rem;
-            text-align: center;
-            a {
-                color: #fff;
-                font-weight: 700;
-                display: block;
-                padding: 1vw;
-            }
-        }
+@import "../../assets/css/main.scss";
+
+.section {
+    background: url("../../assets/images/intro.png") no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+    .imageColor {
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
     }
 }
 </style>
