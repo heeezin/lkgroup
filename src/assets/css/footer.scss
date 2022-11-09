@@ -5,17 +5,35 @@ footer {
     background-color: #737373;
     color: var(--text);
     .foot_inner {
-        width: 60%;
+        width: 63%;
         h4 {
             color: var(--text);
-            font-size: 3rem;
+            font-size: 3.5rem;
         }
         .foot_contact {
+            .mail_form {
+                input {
+                    width: 30%;
+                    height: 32px;
+                    background-color: #D9D9D9;
+                }
+                span {
+                    display: block;
+                    font-size: 1.2rem;
+                }
+            }
+            .ms {
+                margin: 1vw 0;
+                #message {
+                    background-color: #D9D9D9;
+                }
+            }
             .mail_submit {
                     width: 200px;
                     background: var(--point);
                     border-radius: 15px;
                     text-align: center;
+                    display: block;
                 .submit {
                     font-weight: 700;
                     padding: 1vw;
@@ -25,8 +43,13 @@ footer {
             }   
         }
         .foot_info {
+            padding-top: 1vw;
             .info {
-                font-size: 1rem;
+                font-size: 1.2rem;
+                .copy {
+                    font-size: 1rem;
+                    padding-top: 1vw;
+                }
             }
         }
     }

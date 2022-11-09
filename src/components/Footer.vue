@@ -6,12 +6,17 @@
                 <form action="">
                     <fieldset>
                         <div class="mail_form">
-                            <input type="text" placeholder="NAME">
+                            <span>NAME</span>
+                            <input type="text">
                         </div>
                         <div class="mail_form">
-                            <input type="text" placeholder="MAIL">
+                            <span>MAIL</span>
+                            <input type="text">
                         </div>
-                        <textarea name="MESSAGE" id="message" cols="50" rows="10" placeholder="MESSAGE"></textarea>
+                        <div class="ms mail_form">
+                            <span>MESSAGE</span>
+                            <textarea name="MESSAGE" id="message" cols="50" rows="10" placeholder="MESSAGE"></textarea>
+                        </div>
                         <div class="mail_submit">
                             <button 
                                 class="submit main_btn" type="button" onclick="location.href = 'mailto:gmlwls0425107@gmail.com' "
@@ -30,12 +35,13 @@
                     <a href="/" target="_blank"></a>
                 </div>
                 <div class="info">
-                    <span>상호 : (주)엘케이파트너스아이엔씨</span>
-                    <span>대표 : 이종훈</span>
-                    <span>사업자등록번호 : 858-88-01309</span>
+                    <span>상호 : (주)엘케이파트너스아이엔씨 </span>
+                    <span>대표 : 이종훈 </span>
+                    <span>사업자등록번호 : 858-88-01309 </span>
                     <span>전화 : 1600-3607</span>
                     <address class="address">주소 : 04075 서울특별시 마포구 토정로 127 (상수동)</address>
                     <span>개인정보관리책임자 : 김현식</span>
+                    <p class="copy">Copyrightⓒ2022 LK Partners Inc. All rights reserved.</p>
                 </div>
             </div>
         </div>
