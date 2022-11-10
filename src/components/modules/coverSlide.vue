@@ -1,12 +1,11 @@
 <template>
     <swiper
-        :spaceBetween="30"
-        :slides-per-view="3"
+        :slides-per-view="1"
         :autoplay="{
         disableOnInteraction: false,
         }"
         :modules="modules"
-        class="mySwiper"
+        class="coverSwiper"
         >
         <swiper-slide>1</swiper-slide>
         <swiper-slide>2</swiper-slide>
@@ -38,17 +37,20 @@ export default {
 }
 </script>
 <style>
-.mySwiper {
+.coverSwiper {
     width: 100%;
-    height: 30vh;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
 
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    width: 300px;
-    height: 300px;
-    background: #fff;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
 
     /* Center slide text vertically */
     display: -webkit-box;

@@ -31,19 +31,20 @@
 
 
                         >CREATOR</a></li>
-                    <li><a href="#" 
-
-                         >NEWS</a></li>
-                    <li><a href="#"
-                        
-
-
-                         >CONTACT</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
-                <font-awesome-icon icon="fa-solid fa-user-secret" />
-                <font-awesome-icon icon="fa-solid fa-plus" />
-                <font-awesome-icon icon="fa-regular fa-bars" />
             </nav>
+            <!-- mobile menu -->
+            <div class="mbMenu">
+                <div class="mbOpen">
+                    <a href=""><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div class="mbClose">
+                    <a href=""><i class="fa-solid fa-xmark"></i></a>
+                </div>
+            </div>
+            <!-- //mobile menu -->
         </div>
         <div class="sub_inner"
             v-show="subInner"
