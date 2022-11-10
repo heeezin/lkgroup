@@ -1,7 +1,7 @@
 <template>
-    <footer id="footer" class="section">
+    <footer id="footer">
         <div class="foot_inner">
-            <div class="foot_contact">
+            <!-- <div class="foot_contact">
                 <h4>CONTACT</h4>
                 <form action="">
                     <fieldset>
@@ -26,13 +26,19 @@
                         </div>
                     </fieldset>
                 </form>
-            </div>
+            </div> -->
             <div class="foot_info">
                 <h4>CONNECT WITH US</h4>
                 <div class="sns">
-                    <a href="/" target="_blank"></a>
-                    <a href="/" target="_blank"></a>
-                    <a href="/" target="_blank"></a>
+                    <a href="/" target="_blank">
+                        <img src="../assets/images/sns1.png" alt="">
+                    </a>
+                    <a href="/" target="_blank">
+                        <img src="../assets/images/sns2.png" alt="">
+                    </a>
+                    <a href="/" target="_blank">
+                        <img src="../assets/images/sns3.png" alt="">
+                    </a>
                 </div>
                 <div class="info">
                     <span>상호 : (주)엘케이파트너스아이엔씨 </span>

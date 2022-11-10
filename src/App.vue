@@ -5,7 +5,8 @@
   <shop/>
   <enter/>
   <ad/>
-  <Footer/>
+  <news/>
+<!-- <Footer/> -->
 </template>
 
 <script>
@@ -15,7 +16,8 @@ import Ad from './components/main/ad.vue';
 import Intro from './components/main/intro.vue';
 import mainVideo from './components/main/mainVideo.vue';
 import Shop from './components/main/shop.vue';
-import Footer from './components/Footer.vue';
+import news from './components/main/news.vue';
+// import Footer from './components/Footer.vue';
 
 
 export default {
@@ -27,7 +29,8 @@ export default {
     Shop,
     Ad,
     Enter,
-    Footer,
+    news,
+    // Footer,
   },
   data: () => ({ 
   })
