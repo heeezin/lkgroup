@@ -1,12 +1,11 @@
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #737373;
     color: var(--text);
-    height: 50vh;
+    height: 40vh;
     .foot_inner {
-        width: 63%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         h4 {
             color: var(--text);
             font-size: 3rem;
@@ -44,11 +43,13 @@ footer {
             }   
         }
         .foot_info {
-            padding-top: 1vw;
+            padding-top: 4%;
             .sns {
+                padding: 4% 0 2%;
                 a{
+                    display: inline-block;
+                    padding-right: 2%;
                     img{
-                        width: 32px;
                     }
                 }
             }

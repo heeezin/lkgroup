@@ -14,7 +14,13 @@
       }
     }
   }
-
+  .sec_tit {
+    padding: 2vw 5vw 1vw;
+    h3 {
+    color: var(--text);
+    font-size: 3rem;
+    }
+}
 .main {
     display: flex;
     justify-content: center;
@@ -30,18 +36,20 @@
         .main_txt{
             padding: 2vw 0;
         }
-        .main_btn {
-            width: 200px;
-            background: var(--point);
-            border-radius: 15px;
-            font-size: 1.5rem;
-            text-align: center;
-            a {
-                color: #fff;
-                font-weight: 700;
-                display: block;
-                padding: 1vw;
-            }
-        }
+        
     }
+}
+.main_btn {
+  margin: 2vw auto;
+  width: 200px;
+  background: var(--point);
+  border-radius: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+  a {
+      color: #fff;
+      font-weight: 700;
+      display: block;
+      padding: 1vw;
+  }
 }

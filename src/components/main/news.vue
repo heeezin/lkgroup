@@ -2,30 +2,30 @@
     <div class="section">
         <div class="news">
             <div class="news_inner">
-                <div class="news_tit">
+                <div class="sec_tit news_tit">
                     <h3>NEWS</h3>
                 </div>
-                <div class="imgBox">
-                    <swiper
-                        :spaceBetween="30"
-                        :slidesPerView="3"
-                        :centeredSlides="true"
-                        :autoplay="{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                        }"
-                        :pagination="{
-                        clickable: true,
-                        }"
-                        :modules="modules"
-                        class="mySwiper"
-                    >
-                        <swiper-slide>Slide 1</swiper-slide><swiper-slide>Slide 2</swiper-slide
-                        ><swiper-slide>Slide 3</swiper-slide><swiper-slide>Slide 4</swiper-slide
-                        ><swiper-slide>Slide 5</swiper-slide><swiper-slide>Slide 6</swiper-slide
-                        ><swiper-slide>Slide 7</swiper-slide><swiper-slide>Slide 8</swiper-slide
-                        ><swiper-slide>Slide 9</swiper-slide>
-                    </swiper>
+                <swiper
+                    :spaceBetween="30"
+                    :slides-per-view="3"
+                    :autoplay="{
+                    disableOnInteraction: false,
+                    }"
+                    :modules="modules"
+                    class="mySwiper"
+                >
+                    <swiper-slide>1</swiper-slide>
+                    <swiper-slide>2</swiper-slide>
+                    <swiper-slide> 3</swiper-slide>
+                    <swiper-slide> 4</swiper-slide>
+                    <swiper-slide> 5</swiper-slide>
+                    <swiper-slide> 6</swiper-slide>
+                    <swiper-slide> 7</swiper-slide>
+                    <swiper-slide> 8</swiper-slide>
+                    <swiper-slide> 9</swiper-slide>
+                </swiper>
+                <div class="news_btn main_btn">
+                    <a href="/">자세히 보기</a>
                 </div>
             </div>
         </div>
@@ -34,11 +34,9 @@
 </template>
 <script>
 import Footer from '../Footer.vue';
-import { Swiper, SwiperSlide } from "swiper/vue";
-import 'swiper/swiper-bundle.min.css'
-import 'swiper/swiper.min.css'
 import { Autoplay } from "swiper";
-
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import "swiper/css";
 
 
 export default {
@@ -48,25 +46,19 @@ export default {
         Footer
     },
     setup() {
-    return {
-      modules: [Autoplay],
-    };
+      return {
+        modules: [Autoplay],
+      };
   },
 }
 </script>
 <style lang="scss" scoped>
+@import "../../assets/css/main.scss";
+
     .news {
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         background: #7DB055;
-        .news_tit {
-            padding: 2vw 3vw;
-            h3 {
-            color: var(--text);
-            font-size: 3rem;
-            }
-        }
-        
     }
     .swiper {
   width: 100%;
@@ -97,7 +89,6 @@ export default {
 
 .swiper-slide img {
   display: block;
-  width: 500px;
   height: 50%;
   object-fit: cover;
 }

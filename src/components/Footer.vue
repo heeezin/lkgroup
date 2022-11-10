@@ -45,7 +45,7 @@
                     <span>대표 : 이종훈 </span>
                     <span>사업자등록번호 : 858-88-01309 </span>
                     <span>전화 : 1600-3607</span>
-                    <address class="address">주소 : 04075 서울특별시 마포구 토정로 127 (상수동)</address>
+                    <span><address class="address">주소 : 04075 서울특별시 마포구 토정로 127 (상수동)</address></span>
                     <span>개인정보관리책임자 : 김현식</span>
                     <p class="copy">Copyrightⓒ2022 LK Partners Inc. All rights reserved.</p>
                 </div>
