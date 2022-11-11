@@ -66,6 +66,9 @@ export default {
     -webkit-align-items: center;
     align-items: center;
 }
+.coverSwiper .swiper-slide:nth-child(1) {
+    background: url('../../assets/images/creator1.png') center center no-repeat;
+}
 
 .swiper-slide img {
     display: block;

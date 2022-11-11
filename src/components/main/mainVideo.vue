@@ -2,7 +2,7 @@
     <div class="section" key="down" v-if="showHeader">
       <video controls autoplay loop muted id="player">
         <source 
-            src="../../assets/images/20221104_175336466.mp4"
+            src="http://lkpartnersinc.co.kr/img/video/mefelx_video01.mp4"
         />
       </video>
       <div class="playBtn">
@@ -76,10 +76,15 @@ body{
     padding: 0;
 }
 .section {
-  width: 100%;
-  height: 100vh;
   font-size: 32px; 
+  height: 100vh;
   position: relative;
+  video {
+    width: 100%;
+    height: 100vh;
+  padding-top: 80px;
+
+  }
   .playBtn {
     position: absolute;
     width: 50px;

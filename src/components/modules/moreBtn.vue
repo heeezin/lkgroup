@@ -7,7 +7,7 @@
 </script>
 <style lang="scss" scoped>
 .main_btn {
-    z-index: 1;
+    z-index: 1000;
     margin: 2vw auto;
     width: 200px;
     background: var(--point);

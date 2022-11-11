@@ -1,47 +1,52 @@
 <template>
     <header 
         :class="{'hidden_header': !showHeader}"
-        @mouseover="subInner=true"
         @mouseleave="subInner=false"
     >
         <div class="header_inner">
             <div class="logo">
                 <a href="/"><img src="../assets/images/logo.png" alt="logo"></a>
             </div>
-            <nav>
+            <nav v-if="pcNav">
                 <ul class="nav">
                     <li
                     >
                         <a href="#"
-                            @mouseover="activetab=1" v-bind:class="[activetab === 1 ? 'active' : '']"
+                            @mouseover="activetab=1, subInner=true" v-bind:class="[activetab === 1 ? 'active' : '']"
 
                         >ABOUT</a>
                     </li>
                     <li
                     >
                         <a href="#"
-                        @mouseover="activetab=2" v-bind:class="[activetab === 2 ? 'active' : '']"
+                        @mouseover="activetab=2, subInner=true" v-bind:class="[activetab === 2 ? 'active' : '']"
 
 
                         >BUSINESS</a>
                     </li>
                     <li>
                         <a href="#"
-                        @mouseover="activetab=3" v-bind:class="[activetab === 3 ? 'active' : '']"
+                        @mouseover="subInner=false"
 
 
                         >CREATOR</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#" @mouseover="subInner=false">NEWS</a></li>
+                    <li><a href="#" @mouseover="subInner=false">CONTACT</a></li>
                 </ul>
             </nav>
             <!-- mobile menu -->
-            <div class="mbMenu">
-                <div class="mbOpen">
-                    <a href=""><i class="fa-solid fa-bars"></i></a>
+            <div class="mbMenu" v-if="mbMenuBtn">
+                <div class="mbOpen" 
+                    v-if="!mbMenuAll"
+                    @click="showSub(true)"
+                    >
+                    <a><i class="fa-solid fa-bars mbIcon"></i></a>
                 </div>
-                <div class="mbClose">
-                    <a href=""><i class="fa-solid fa-xmark"></i></a>
+                <div class="mbClose" 
+                    v-if="mbMenuAll"
+                    @click="showSub(false)"
+                >
+                    <a><i class="fa-solid fa-xmark mbIcon"></i></a>
                 </div>
             </div>
             <!-- //mobile menu -->
@@ -66,13 +71,18 @@
                 <li><a href="#">AD/MARKETING</a></li>
             </ul>
         </div>
+        <mobile-header
+            :mbMenuAll="mbMenuAll"
+            :subMenu="subMenu"
+        />
     </header>
 </template>
 <script>
-
+import mobileHeader from './gnb/mobileHeader.vue'
 const OFFSET = 10
 
 export default {
+  components: { mobileHeader },
     el: 'header',
     data: () => ({
         // gnb1: false,
@@ -84,14 +94,22 @@ export default {
         navNum: 1,
         navOn: false,
         activetab: 1,
+        mbMenuAll: false,
+        mbMenuBtn: true,
+        pcNav: false
     }),
     mounted() {
-        this.lastScrollPosition = window.pageYOffset
+    this.lastScrollPosition = window.pageYOffset
     window.addEventListener('scroll', this.onScroll)
     const viewportMeta = document.createElement('meta')
     viewportMeta.name = 'viewport'
     viewportMeta.content = 'width=device-width, initial-scale=1'
     document.head.appendChild(viewportMeta)
+
+    if(window.innerWidth > 1025) {
+        this.mbMenuBtn = !this.mbMenuBtn;
+        this.pcNav = !this.pcNav;
+    } 
   },
 
   beforeDestroy () {
@@ -113,7 +131,11 @@ export default {
         this.navOn = !this.navOn;
         if(e) this.navNum = e;
     },
-      
+    
+    // submenu 
+    showSub() {
+        this.mbMenuAll = !this.mbMenuAll;
+    }
     }
 }
 </script>

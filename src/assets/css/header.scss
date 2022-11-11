@@ -4,7 +4,7 @@ header {
     top: 0;
     left: 0;
     z-index: 100;
-    background: #fff;
+    background: rgba(255,255,255,0.3);
     transition: 0.3s all ease-out;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;    
@@ -49,6 +49,9 @@ header {
                 }
             }
         }
+    }
+    .mbMenu {
+        a {display: block;}
     }
     ul.subNav{
         li{
