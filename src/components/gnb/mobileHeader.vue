@@ -6,7 +6,7 @@
                     @click="subTab=1"
                     v-bind:class="[subTab === 1 ? subMenu:'']"
                 >ABOUT</a>
-                <ul  v-if="subTab === 1">
+                <ul class="mbSub" v-if="subTab === 1">
                     <li><a href="#">LK PARTNERS INC.</a></li>
                     <li><a href="#">HISTORY</a></li>
                 </ul>
@@ -15,7 +15,7 @@
                 <a  href="#"
                     @click="subTab=2"
                     v-bind:class="[subTab === 2 ? subMenu:'']">BUSINESS</a>
-                <ul v-if="subTab === 2">
+                <ul class="mbSub" v-if="subTab === 2">
                     <li><a href="#">MEFLEX</a></li>
                     <li><a href="#">ENTERTAINMENT</a></li>
                     <li><a href="#">AD/MARKETING</a></li>
@@ -66,6 +66,11 @@ export default {
         font-size: 2rem;
         padding: 1vw;
         display: block;
+    }
+    .mbSub {
+        li > a {
+            font-size: 1rem;
+        }
     }
 }
 </style>

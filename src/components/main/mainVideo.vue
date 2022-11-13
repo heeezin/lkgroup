@@ -82,7 +82,7 @@ body{
   video {
     width: 100%;
     height: 100vh;
-  padding-top: 80px;
+    object-fit: cover;
 
   }
   .playBtn {

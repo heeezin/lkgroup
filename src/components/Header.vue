@@ -39,7 +39,7 @@
                 <div class="mbOpen" 
                     v-if="!mbMenuAll"
                     @click="showSub(true)"
-                    >
+                >
                     <a><i class="fa-solid fa-bars mbIcon"></i></a>
                 </div>
                 <div class="mbClose" 
