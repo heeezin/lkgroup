@@ -17,7 +17,7 @@
                         >ABOUT</a>
                     </li>
                     <li
-                    >
+                    >   
                         <a href="#"
                         @mouseover="activetab=2, subInner=true" v-bind:class="[activetab === 2 ? 'active' : '']"
 
@@ -25,13 +25,14 @@
                         >BUSINESS</a>
                     </li>
                     <li>
-                        <a href="#"
+                        <router-link to="/creator"
                         @mouseover="subInner=false"
 
 
-                        >CREATOR</a></li>
+                        >CREATOR</router-link></li>
+                        <router-view/>
                     <li><a href="#" @mouseover="subInner=false">NEWS</a></li>
-                    <li><a href="#" @mouseover="subInner=false">CONTACT</a></li>
+                    <li><router-link to="/contact" @mouseover="subInner=false">CONTACT</router-link></li>
                 </ul>
             </nav>
             <!-- mobile menu -->
