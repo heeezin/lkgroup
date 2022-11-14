@@ -1,4 +1,5 @@
 <template>
+    <Header/>
     <div class="contact">
         <div class="cont_inner">
             <map-api/>
@@ -43,11 +44,13 @@
     </div>
 </template>
 <script>
+import Header from '../Header.vue';
 import mapApi from './mapApi.vue';
 
 export default {
     components: {
-        mapApi
+        mapApi,
+        Header
     }
 }
 </script>
@@ -57,7 +60,7 @@ export default {
     color: var(--text);
     
     .cont_inner {
-        padding: 30px;
+        padding: 80px 30px;
         .address {
             padding: 2vw 0;
             span {

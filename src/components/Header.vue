@@ -5,7 +5,7 @@
     >
         <div class="header_inner">
             <div class="logo">
-                <a href="/"><img src="../assets/images/logo.png" alt="logo"></a>
+                <router-link to="/"><img src="../assets/images/logo.png" alt="logo"></router-link>
             </div>
             <nav v-if="pcNav">
                 <ul class="nav">
