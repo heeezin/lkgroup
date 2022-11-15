@@ -41,6 +41,6 @@
     </script>
     
     <style>
-    
+    @import "@/assets/css/reset.scss";
     </style>
     

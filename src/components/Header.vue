@@ -5,7 +5,7 @@
     >
         <div class="header_inner">
             <div class="logo">
-                <router-link to="/"><img src="../assets/images/logo.png" alt="logo"></router-link>
+                <a href="/"><img src="../assets/images/logo.png" alt="logo"></a>
             </div>
             <nav v-if="pcNav">
                 <ul class="nav">
@@ -60,8 +60,8 @@
 
 
             >
-                <li><a href="#">LK PARTNERS INC.</a></li>
-                <li><a href="#">HISTORY</a></li>
+                <li><router-link to="/lkpartners">LK PARTNERS INC.</router-link></li>
+                <li><router-link to="/history">HISTORY</router-link></li>
             </ul>
             <ul class="subNav businessSub" 
             v-if="activetab === 2" 
