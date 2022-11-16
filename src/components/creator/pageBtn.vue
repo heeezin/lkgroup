@@ -1,7 +1,7 @@
 <template>
     <div class="page">
-        <div class="pagePre" v-for="page in list" :key="page.name">
-            <router-link :to="page.href" class="pageLink">
+        <div class="pagePre" v-for="page in list" :key="page.name" :class="{active: list == ''}">
+            <router-link :to="page.href" :class="{active:isActive}">
                 <span>{{page.name}}</span>
             </router-link>
         </div>
@@ -33,7 +33,7 @@ export default {
 .page {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 250px;
     .pagePre {
         margin-right: 20px;
     }
@@ -47,8 +47,8 @@ export default {
         color: var(--text);
         background: var(--point);
     }
-    :active {
-        color: pink;
+    .router-link-active {
+        span {color: red;}
     }
 }
 </style>
