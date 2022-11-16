@@ -3,6 +3,8 @@ import Home from "../components/Home.vue"
 import contactView from "../components/contact/contactView.vue"
 import inc from "../components/about/inc.vue"
 import history from "@/components/about/history.vue"
+import creatorView from "@/components/creator/creatorView.vue"
+import creatorPro2 from "@/components/creator/creatorPro2.vue"
 
 
 const routes = [
@@ -21,6 +23,14 @@ const routes = [
   {
     path: "/history",
     component: history,
+  },
+  {
+    path: "/creator",
+    component: creatorView,
+  },
+  {
+    path: "/creator/2",
+    component: creatorPro2,
   },
 ];
 

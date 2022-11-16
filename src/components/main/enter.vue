@@ -27,7 +27,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import url('../../assets/css/main.scss');
+@import "@/assets/css/main.scss";
 
 .section {
     background: url("../../assets/images/enter.png") no-repeat center / cover;

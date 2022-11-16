@@ -7,8 +7,8 @@
                     v-bind:class="[subTab === 1 ? subMenu:'']"
                 >ABOUT</a>
                 <ul class="mbSub" v-if="subTab === 1">
-                    <li><a href="#">LK PARTNERS INC.</a></li>
-                    <li><a href="#">HISTORY</a></li>
+                    <li><router-link to="/lkpartners">LK PARTNERS INC.</router-link></li>
+                    <li><router-link to="/history">HISTORY</router-link></li>
                 </ul>
             </li>
             <li>
@@ -22,13 +22,13 @@
                 </ul>
             </li>
             <li>
-                <a href="/">CREATOR</a>
+                <router-link to="/creator">CREATOR</router-link>
             </li>
             <li>
                 <a href="/">NEWS</a>
             </li>
             <li>
-                <a href="/">CONTACT</a>
+                <router-link to="/contact">CONTACT</router-link>
             </li>
         </ul>
     </div>

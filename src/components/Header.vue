@@ -25,7 +25,7 @@
                         >BUSINESS</a>
                     </li>
                     <li>
-                        <router-link to="/creator"
+                        <router-link to="/creator"  @click="pageShow()"
                         @mouseover="subInner=false"
 
 
@@ -80,10 +80,12 @@
 </template>
 <script>
 import mobileHeader from './gnb/mobileHeader.vue'
+import pageBtn from './creator/pageBtn.vue'
+
 const OFFSET = 10
 
 export default {
-  components: { mobileHeader },
+  components: { mobileHeader, pageBtn },
     el: 'header',
     data: () => ({
         // gnb1: false,
@@ -143,4 +145,6 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/css/header.scss";
 @import "../assets/css/reset.scss";
+
+
 </style>
