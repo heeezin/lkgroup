@@ -1,10 +1,9 @@
 <template>
     <div class="page">
-        <div class="pagePre">
-            <router-link @click="pageShow()" to="/creator"><span v-bind:style="pageColor">1</span></router-link>
-        </div>
-        <div class="pageNext">
-            <router-link @click="pageShow()" to="/creator/2"><span v-bind:style="pageColor2">2</span></router-link>
+        <div class="pagePre" v-for="page in list" :key="page.name">
+            <router-link :to="page.href" class="pageLink">
+                <span>{{page.name}}</span>
+            </router-link>
         </div>
     </div>
 </template>
@@ -13,14 +12,20 @@
 export default {
     data()  {
         return {
-            pageColor: {}
+            list: [
+                {
+                    name:'1',
+                    href: '/creator'
+                },
+                {
+                    name:'2',
+                    href: '/creator/2'
+                }
+            ]
         }
     },
     methods: {
-        pageShow() {
-            this.pageColor.color = "red";
-            this.pageColor2.color = "gray";
-        }
+
     }
 }
 </script>
@@ -41,6 +46,9 @@ export default {
         font-weight: 700;
         color: var(--text);
         background: var(--point);
+    }
+    :active {
+        color: pink;
     }
 }
 </style>
