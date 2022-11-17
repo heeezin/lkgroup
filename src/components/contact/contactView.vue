@@ -55,6 +55,8 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@import "@/assets/css/reset.scss";
+
 .contact {
     background: #5F7390;
     color: var(--text);
@@ -85,13 +87,20 @@ export default {
             }
             .mail_form {
                 input {
-                    width: 100%;
-                    height: 35px;
+                    width: 25vw;
+                    height: 40px;
                     background-color: #D9D9D9;
                 }
                 span {
                     display: block;
                     font-size: 1.2rem;
+                }
+                textarea {
+                    width: 100%;
+                }
+                .name {
+                    width: 100%;
+                    margin-right: 1vw;
                 }
             }
             .ms {
@@ -102,7 +111,7 @@ export default {
             }
             .mail_submit {
                     margin: 0 auto;
-                    width: 50%;
+                    width: 280px;
                     background: var(--point);
                     border-radius: 15px;
                     text-align: center;
@@ -116,5 +125,8 @@ export default {
             }  
         }
     }
+}
+@media (max-width: $mobile) {
+    .contact .cont_inner .contForm .mail_form input{width: 40vw;}
 }
 </style>

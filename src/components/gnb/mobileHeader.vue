@@ -25,7 +25,7 @@
                 <router-link to="/creator">CREATOR</router-link>
             </li>
             <li>
-                <a href="/">NEWS</a>
+                <router-link to="/news">NEWS</router-link>
             </li>
             <li>
                 <router-link to="/contact">CONTACT</router-link>

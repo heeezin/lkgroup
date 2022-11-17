@@ -15,11 +15,11 @@ export default {
             list: [
                 {
                     name:'1',
-                    href: '/creator'
+                    href: '/news'
                 },
                 {
                     name:'2',
-                    href: '/creator/2'
+                    href: '/news/2'
                 }
             ]
         }
@@ -33,7 +33,6 @@ export default {
 .page {
     display: flex;
     justify-content: center;
-    padding: 250px;
     .pagePre {
         margin-right: 20px;
     }
@@ -41,6 +40,7 @@ export default {
         display: inline-block;
     }
     span {
+        display: block;
         padding: 5px 15px;
         font-size: 2rem;
         font-weight: 700;

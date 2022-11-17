@@ -31,7 +31,7 @@
 
                         >CREATOR</router-link></li>
                         <router-view/>
-                    <li><a href="#" @mouseover="subInner=false">NEWS</a></li>
+                    <li><router-link to="/news" @mouseover="subInner=false">NEWS</router-link></li>
                     <li><router-link to="/contact" @mouseover="subInner=false">CONTACT</router-link></li>
                 </ul>
             </nav>

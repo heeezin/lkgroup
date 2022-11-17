@@ -3,10 +3,10 @@
         <div class="imageColor"></div>
         <div class="intro main">
             <div class="intro_inner main_inner">
-                <div class="main_tit">
+                <div class="main_tit txtBox">
                     <h3>WE ARE LK PARTNERS INC.</h3>
                 </div> 
-                <div class="main_txt">
+                <div class="main_txt txtBox">
                     <p>
                         엘케이파트너스아이엔씨는
                         4차산업혁명 시대에 발 맞춰
@@ -20,7 +20,7 @@
                         회사입니다.
                     </p>
                 </div>
-                <div class="intro_btn main_btn">
+                <div class="intro_btn main_btn txtBox">
                     <a href="/">자세히 보기</a>
                 </div>
             </div>
@@ -28,8 +28,34 @@
     </div>
 </template>
 <script>
+import gsap from "gsap";
 
 export default {
+    mounted() {
+        gsap.timeline({
+            scrollTrigger: {
+                trigger: ".txtBox",
+                start: "center center",
+                end: "bottom top",
+                opacity: 0,
+                delay: 0.5,
+                transition: 0.5,
+                scrub: true,
+                pin: false
+            }
+        })
+        .from(".txtBox", {y: innerHeight * 1.5})
+            
+        // gsap.to(".txtBox", {
+        //     delay: 0.1,
+        //     transition: 0.2,
+        //     y: -50,
+        //     stagger: 0.1,
+        //     ease: "power1",
+        //     trigger: ".txtBox",
+        //     scrub: 1
+        // })
+    }
     
 }
 </script>
