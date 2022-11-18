@@ -6,9 +6,7 @@
                     <h3>NEWS</h3>
                 </div>
                 <slide/>
-                <div class="news_btn main_btn">
-                    <a href="/">자세히 보기</a>
-                </div>
+                <more-btn/>
             </div>
         </div>
         <Footer/>
@@ -16,13 +14,15 @@
 </template>
 <script>
 import Footer from '../Footer.vue';
+import MoreBtn from '../modules/moreBtn.vue';
 import Slide from '../modules/slide.vue';
 
 
 export default {
     components: {
         Footer,
-        Slide
+        Slide,
+        MoreBtn
     },
 }
 </script>

@@ -1,9 +1,19 @@
 <template>
-    <div class="main_btn">
+    <div class="main_btn"
+        data-sal="slide-up"
+        data-sal-delay="700"    
+    >
         <a href="/">자세히 보기</a>
     </div>
 </template>
 <script>
+import sal from "sal.js";
+
+export default {
+    mounted() {
+        sal()
+    }
+}
 </script>
 <style lang="scss" scoped>
 .main_btn {

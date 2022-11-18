@@ -1,12 +1,18 @@
 <template>
     <div class="section">
         <div class="imageColor"></div>
-        <div class="intro main">
+        <div class="intro main" 
+            data-sal="slide-up"
+            data-sal-delay="100">
             <div class="intro_inner main_inner">
                 <div class="main_tit txtBox">
                     <h3>WE ARE LK PARTNERS INC.</h3>
                 </div> 
-                <div class="main_txt txtBox">
+                <div class="main_txt txtBox"
+                    data-sal="slide-up"
+                    data-sal-delay="500"
+                
+                >
                     <p>
                         엘케이파트너스아이엔씨는
                         4차산업혁명 시대에 발 맞춰
@@ -20,31 +26,32 @@
                         회사입니다.
                     </p>
                 </div>
-                <div class="intro_btn main_btn txtBox">
-                    <a href="/">자세히 보기</a>
-                </div>
+                <more-btn/>
             </div>
         </div>
     </div>
 </template>
 <script>
 import gsap from "gsap";
+import sal from "sal.js";
+import moreBtn from '../modules/moreBtn.vue';
 
 export default {
+  components: { moreBtn },
     mounted() {
-        gsap.timeline({
-            scrollTrigger: {
-                trigger: ".txtBox",
-                start: "center center",
-                end: "bottom top",
-                opacity: 0,
-                delay: 0.5,
-                transition: 0.5,
-                scrub: true,
-                pin: false
-            }
-        })
-        .from(".txtBox", {y: innerHeight * 1.5})
+        sal();
+    //     gsap.timeline({
+    //         scrollTrigger: {
+    //             trigger: ".txtBox",
+    //             start: "center center",
+    //             end: "bottom top",
+    //             delay: 0.5,
+    //             transition: 0.5,
+    //             scrub: true,
+    //             pin: false
+    //         }
+    //     })
+    //     .from(".txtBox", {y: innerHeight * 1.5})
             
         // gsap.to(".txtBox", {
         //     delay: 0.1,

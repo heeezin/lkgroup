@@ -9,24 +9,37 @@
         </div>
         <div class="shop main">
             <div class="shop_inner main_inner">
-                <div class="main_tit">
+                <div class="main_tit"
+                    data-sal="slide-up"
+                    data-sal-delay="300"
+                >
                     <h3>온라인 명품 쇼핑몰 ‘MEFLEX’</h3>
                 </div>
-                <div class="main_txt">
+                <div class="main_txt"
+                    data-sal="slide-up"
+                    data-sal-delay="500"
+                >
                     <p>
                         자사의 인플루언서 풀을 활용한
                         마케팅을 통해 다양한 명품 판매 및
                         커뮤니티 채널 구축
                     </p>
                 </div>
-                <div class="shop_btn main_btn">
-                    <a href="/">자세히 보기</a>
-                </div>
+                <more-btn/>
             </div>
         </div>
     </div>
 </template>
 <script>
+import sal from "sal.js";
+import moreBtn from '../modules/moreBtn.vue';
+
+export default {
+  components: { moreBtn },
+    mounted() {
+        sal();
+    }
+}
 </script>
 <style lang="scss" scoped>
 @import url('../../assets/css/main.scss');
