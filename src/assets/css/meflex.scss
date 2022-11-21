@@ -1,0 +1,66 @@
+@import "../css/reset.scss";
+
+.section {
+    background: var(--bg);
+    .secInner { 
+                display: flex; 
+                align-items: center;
+                color: var(--text);
+                padding: 120px 60px 0;
+            
+    .introImg {
+        width: 50%;
+    .backImg {
+        background: url(@/assets/images/symbol.png) center no-repeat;
+        width: 487px;
+        height: 510px;
+        background-size: 100%;
+        margin: auto;
+        padding-top: 10%;
+        img {
+            width: 500px;
+            height: 500px;
+        }
+    }
+    .Title {
+        font-size: 2rem;
+        font-weight: 700;
+        &:before {
+            content: "";
+            width: 120px;
+            height: 3px;
+            background: var(--text);
+            position: absolute;
+            margin-top: -7px;
+        }
+    }
+    }
+    .introTxt {
+        width: 50%;
+    }
+}
+}
+@media (max-width: $tablet) {
+    .section {
+        .secInner{
+            .introTxt {
+                padding-top: 15%;
+                z-index: 100;
+            }
+        }
+    }
+}
+@media (max-width: $mobile) {
+    .section {
+        .secInner {
+            display: block;
+            .introImg {
+                width: 100%;
+            }
+            .introTxt {
+                width: 100%;
+                padding-top: 20%;
+            }
+        }
+    }
+}

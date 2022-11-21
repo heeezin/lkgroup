@@ -58,7 +58,7 @@ export default {
 @import "@/assets/css/reset.scss";
 
 .contact {
-    background: #5F7390;
+    background: var(--bg);
     color: var(--text);
     
     .cont_inner {

@@ -7,6 +7,7 @@ import creatorView from "@/components/creator/creatorView.vue"
 import creatorPro2 from "@/components/creator/creatorPro2.vue"
 import newsView from "@/components/news/newsView.vue"
 import newsPre2 from "@/components/news/newsPre2.vue"
+import mfIntro from "@/components/business/meflex/mfIntro.vue"
 
 
 const routes = [
@@ -41,6 +42,10 @@ const routes = [
   {
     path: "/news/2",
     component: newsPre2,
+  },
+  {
+    path: "/meflex",
+    component: mfIntro,
   },
 ];
 

@@ -67,9 +67,10 @@
             v-if="activetab === 2" 
 
             >
-                <li><a href="#">MEFLEX</a></li>
+                <li><router-link to="/meflex">MEFLEX</router-link></li>
                 <li><a href="#">ENTERTAINMENT</a></li>
                 <li><a href="#">AD/MARKETING</a></li>
+                <li><a href="#">BLOCKCHAIN/NFT</a></li>
             </ul>
         </div>
         <mobile-header

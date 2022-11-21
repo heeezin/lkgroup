@@ -38,7 +38,7 @@ export default {
 </script>
 <style lang="scss" scoped>
     .section {
-        background: #E86767;
+        background: var(--bg);
         .main_inner {
             padding: 120px 30px;
             video {

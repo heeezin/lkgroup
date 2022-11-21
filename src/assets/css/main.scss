@@ -2,6 +2,9 @@
     width: 100%;
     height: 100vh;
     position: relative;
+    .secInner {
+      padding: 120px 60px;
+    }
     .playBtn {
       position: absolute;
       width: 50px;

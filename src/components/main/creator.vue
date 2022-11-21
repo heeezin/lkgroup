@@ -24,11 +24,16 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "../../assets/css/main.scss";
+.creator {}
 .creator_inner {
-    position: relative;
 }
 .sec_tit {
     padding: 5vw 5vw 1vw;
     z-index: -1;
+}
+.main_btn {
+    position: absolute;
+    bottom: 2%;
+    left: 44vw;
 }
 </style>
