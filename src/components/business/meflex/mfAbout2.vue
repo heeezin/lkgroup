@@ -82,4 +82,22 @@ export default {
         }
     }
 }
+@media (max-width: $mobile) {
+    .section {
+        .secInner {
+            .introImg {
+                .backImg {
+                    img {
+                        width: 400px;
+                        height: 400px;
+                        left: 0;
+                        &:last-child {
+                            left: 22%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 </style>

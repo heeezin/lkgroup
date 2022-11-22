@@ -81,6 +81,20 @@ export default {
         }
     }
 }
-    
+}
+@media (max-width: $mobile) {
+    .section {
+        .secInner {
+            .introImg {
+                .backImg {
+                    padding-top: 10%;
+                    img {
+                        width: 350px;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
 }
 </style>

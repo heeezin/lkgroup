@@ -44,7 +44,7 @@
     .section {
         .secInner{
             .introTxt {
-                padding-top: 15%;
+                padding-top: 10%;
                 z-index: 100;
             }
         }
@@ -56,10 +56,19 @@
             display: block;
             .introImg {
                 width: 100%;
+                .backImg {
+                    width: 350px;
+                    height: 350px;
+                    padding-top: 10%;
+                    img {
+                        width: 350px;
+                        height: 350px;
+                    }
+                }
             }
             .introTxt {
                 width: 100%;
-                padding-top: 20%;
+                padding-top: 15%;
             }
         }
     }

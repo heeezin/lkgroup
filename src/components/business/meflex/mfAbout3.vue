@@ -10,12 +10,12 @@
             <div class="introTxt">
                 <h4>자체발행 코인 활용</h4>
                 <p>쇼핑몰 내에서 코인을 활용한 다양한 기능 제공</p>
-            </div>
-            <div class="main_btn"
-            data-sal="slide-up"
-            data-sal-delay="700"    
-        >
-            <a href="/">쇼핑몰 바로가기</a>
+                <div class="main_btn"
+                data-sal="slide-up"
+                data-sal-delay="700"    
+            >
+                <a href="/">쇼핑몰 바로가기</a>
+                </div>
             </div>
         </div>
     </div>
@@ -58,12 +58,9 @@ export default {
         }
     }
     .main_btn {
-        position: absolute;
-        right: 22%;
-        bottom: 25%;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         z-index: 1000;
-        margin: 2vw auto;
+        margin: 5% auto;
         width: 240px;
         background: var(--point);
         border-radius: 15px;
@@ -92,6 +89,23 @@ export default {
                 img {
                     left: 0;
                     top: 28%;
+                }
+
+            }
+        }
+        }
+    }
+}
+@media (max-width: $mobile) {
+    .section {
+        .secInner{
+            .introImg {
+            .backImg {
+                img {
+                    left: 15%;
+                    top: 29%;
+                    width: 500px;
+                    height: 440px;
                 }
 
             }
