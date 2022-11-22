@@ -50,28 +50,5 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.mbMenuBox {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: var(--point);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    li {
-        padding: 5% 0;
-    }
-    a {
-        color: var(--text);
-        font-size: 2rem;
-        padding: 1vw;
-        display: block;
-    }
-    .mbSub {
-        li > a {
-            font-size: 1rem;
-        }
-    }
-}
+@import "@/assets/css/header.scss";
 </style>

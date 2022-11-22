@@ -51,6 +51,8 @@ header {
         }
     }
     .mbMenu {
+        width: 100%;
+        position: absolute;
         a {display: block;}
     }
     ul.subNav{
@@ -80,4 +82,28 @@ header {
 }
 header.hidden_header {
     transform: translate3d(0, -100%, 0);
+}
+.mbMenuBox {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: var(--point);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    li {
+        padding: 5% 0;
+    }
+    a {
+        color: var(--text);
+        font-size: 2rem;
+        padding: 1vw;
+        display: block;
+    }
+    .mbSub {
+        li > a {
+            font-size: 1rem;
+        }
+    }
 }
