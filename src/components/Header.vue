@@ -68,9 +68,9 @@
 
             >
                 <li><router-link to="/meflex">MEFLEX</router-link></li>
-                <li><a href="#">ENTERTAINMENT</a></li>
+                <li><router-link to="/blockchain">BLOCKCHAIN/NFT</router-link></li>
+                <li><router-link to="/entertainment">ENTERTAINMENT</router-link></li>
                 <li><a href="#">AD/MARKETING</a></li>
-                <li><a href="#">BLOCKCHAIN/NFT</a></li>
             </ul>
         </div>
         <mobile-header

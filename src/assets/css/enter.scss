@@ -1,0 +1,29 @@
+.section {
+    background: var(--bg);
+    .secInner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: var(--text);
+        .enterTit {
+            width: 40%;
+            span {
+                font-size: 2rem;
+                font-weight: 700;
+            }
+            p {
+                font-size: 1.5rem;
+                padding-top: 7%;
+            }
+            
+        }
+        .enterTxt {
+            width: 40%;
+            p {font-size: 1.5rem;}
+        }
+    }
+}
+img {
+    padding-top: 10%;
+    width: 500px;
+}

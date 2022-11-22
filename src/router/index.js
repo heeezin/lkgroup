@@ -8,6 +8,8 @@ import creatorPro2 from "@/components/creator/creatorPro2.vue"
 import newsView from "@/components/news/newsView.vue"
 import newsPre2 from "@/components/news/newsPre2.vue"
 import mfIntro from "@/components/business/meflex/mfIntro.vue"
+import blockIntro from "@/components/business/block/blockIntro.vue"
+import enterView from "@/components/business/enter/enterView.vue"
 
 
 const routes = [
@@ -47,6 +49,14 @@ const routes = [
     path: "/meflex",
     component: mfIntro,
   },
+  {
+    path: "/blockchain",
+    component: blockIntro,
+  },     
+  {
+    path: "/entertainment",
+    component: enterView,
+  },  
 ];
 
 const router = createRouter({
