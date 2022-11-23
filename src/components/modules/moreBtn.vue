@@ -18,6 +18,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@import '@/assets/css/reset.scss';
 .main_btn {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 1000;
@@ -32,6 +33,24 @@ export default {
         font-weight: 700;
         display: block;
         padding: 1vw;
+    }
+}
+@media (max-width: $mobile){
+    p {font-size: 1.5rem;}
+    .main_btn {
+        margin: 5vw auto;
+        width: 200px;
+        a {
+        padding: 2vw;
+        }
+    }
+}
+@media (max-width: $Smobile){
+    p {font-size: 1.2rem;}
+    h3 {font-size: 1.7rem;}
+    .main_btn {
+        width: 180px;
+        font-size: 1.3rem;
     }
 }
 </style>
