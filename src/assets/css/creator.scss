@@ -1,10 +1,9 @@
 .main_inner {
     padding: 120px 30px;
-    display: flex;
     align-items: center;
     justify-content: space-around;
     .profile {
-        width: 50%;
+        width: 25%;
         height: 50%;
         text-align: center;
         .profImg {
@@ -22,6 +21,13 @@
                 font-size: 50px;
                 padding: 0 10px;
             }
+        }
+    }
+}
+@media screen and (min-width: $mobile) and (max-width: $tablet) {
+    .main_inner {
+        .profile {
+            width: 50%;
         }
     }
 }

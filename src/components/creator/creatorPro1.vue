@@ -30,10 +30,6 @@
                 <a href="/"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
-    </div>
-</div>
-<div class="section">
-    <div class="main_inner">
         <div class="profile">
             <div class="profImg">
                 <img src="" alt="">
@@ -62,10 +58,6 @@
                 <a href="/"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
-    </div>
-</div>    
-<div class="section">
-    <div class="main_inner">
         <div class="profile">
             <div class="profImg">
                 <img src="" alt="">
@@ -94,10 +86,118 @@
                 <a href="/"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
-    </div>
-</div>
-<div class="section">
-    <div class="main_inner">
+        <div class="profile">
+            <div class="profImg">
+                <img src="" alt="">
+            </div>
+            <div class="profTxt">
+                <a href=""><p>texttexttexttexttexttext</p></a>
+                <a href=""><p>texttexttexttexttexttext</p></a>
+            </div>
+            <div class="profSns">
+                <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="/"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profImg">
+                <img src="" alt="">
+            </div>
+            <div class="profTxt">
+                <a href=""><p>texttexttexttexttexttext</p></a>
+                <a href=""><p>texttexttexttexttexttext</p></a>
+            </div>
+            <div class="profSns">
+                <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="/"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profImg">
+                <img src="" alt="">
+            </div>
+            <div class="profTxt">
+                <a href=""><p>texttexttexttexttexttext</p></a>
+                <a href=""><p>texttexttexttexttexttext</p></a>
+            </div>
+            <div class="profSns">
+                <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="/"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profImg">
+                <img src="" alt="">
+            </div>
+            <div class="profTxt">
+                <a href=""><p>texttexttexttexttexttext</p></a>
+                <a href=""><p>texttexttexttexttexttext</p></a>
+            </div>
+            <div class="profSns">
+                <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="/"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profImg">
+                <img src="" alt="">
+            </div>
+            <div class="profTxt">
+                <a href=""><p>texttexttexttexttexttext</p></a>
+                <a href=""><p>texttexttexttexttexttext</p></a>
+            </div>
+            <div class="profSns">
+                <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="/"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profImg">
+                <img src="" alt="">
+            </div>
+            <div class="profTxt">
+                <a href=""><p>texttexttexttexttexttext</p></a>
+                <a href=""><p>texttexttexttexttexttext</p></a>
+            </div>
+            <div class="profSns">
+                <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="/"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profImg">
+                <img src="" alt="">
+            </div>
+            <div class="profTxt">
+                <a href=""><p>texttexttexttexttexttext</p></a>
+                <a href=""><p>texttexttexttexttexttext</p></a>
+            </div>
+            <div class="profSns">
+                <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="/"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profImg">
+                <img src="" alt="">
+            </div>
+            <div class="profTxt">
+                <a href=""><p>texttexttexttexttexttext</p></a>
+                <a href=""><p>texttexttexttexttexttext</p></a>
+            </div>
+            <div class="profSns">
+                <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="/"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
         <div class="profile">
             <div class="profImg">
                 <img src="" alt="">

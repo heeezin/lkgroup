@@ -10,6 +10,7 @@ import newsPre2 from "@/components/news/newsPre2.vue"
 import mfIntro from "@/components/business/meflex/mfIntro.vue"
 import blockIntro from "@/components/business/block/blockIntro.vue"
 import enterView from "@/components/business/enter/enterView.vue"
+import adView from "@/components/business/ad/adView.vue"
 
 
 const routes = [
@@ -57,6 +58,10 @@ const routes = [
     path: "/entertainment",
     component: enterView,
   },  
+  {
+    path: "/ad/marketing",
+    component: adView,
+  }, 
 ];
 
 const router = createRouter({
