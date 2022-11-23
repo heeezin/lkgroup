@@ -65,19 +65,7 @@ export default {
         }
         .main_txt{
             padding: 2vw 0;
-        }
-        .main_btn {
-            width: 200px;
-            background: var(--point);
-            border-radius: 10px;
             font-size: 1.5rem;
-            text-align: center;
-            a {
-                color: #fff;
-                font-weight: 700;
-                display: block;
-                padding: 1vw;
-            }
         }
     }
 }

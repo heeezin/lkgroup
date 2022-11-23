@@ -1,32 +1,6 @@
 <template>
     <footer id="footer">
         <div class="foot_inner">
-            <!-- <div class="foot_contact">
-                <h4>CONTACT</h4>
-                <form action="">
-                    <fieldset>
-                        <div class="mail_form">
-                            <span>NAME</span>
-                            <input type="text">
-                        </div>
-                        <div class="mail_form">
-                            <span>MAIL</span>
-                            <input type="text">
-                        </div>
-                        <div class="ms mail_form">
-                            <span>MESSAGE</span>
-                            <textarea name="MESSAGE" id="message" cols="50" rows="10"></textarea>
-                        </div>
-                        <div class="mail_submit">
-                            <button 
-                                class="submit main_btn" type="button" onclick="location.href = 'mailto:gmlwls0425107@gmail.com' "
-                            >
-                                SUBMIT
-                            </button>
-                        </div>
-                    </fieldset>
-                </form>
-            </div> -->
             <div class="foot_info">
                 <h4>CONNECT WITH US</h4>
                 <div class="sns">
@@ -58,5 +32,4 @@
 </script>
 <style lang="scss" scoped>
 @import "../assets/css/footer.scss";
-@import "../assets/css/reset.scss";
 </style>

@@ -1,3 +1,5 @@
+@import "@/assets/css/reset.scss";
+
 footer {
     background-color: #737373;
     color: var(--text);
@@ -63,4 +65,28 @@ footer {
         }
     }
     
+}
+@media (max-width: $mobile) {
+    #footer {
+        .foot_inner {
+            padding: 7%;
+            h4 {
+                font-size: 2.3rem;
+            }
+            .foot_info {
+                padding: 0;
+            }
+        }
+    }
+}
+@media (max-width: $Smobile) {
+    #footer {
+        height: 50vh;
+        .foot_inner {
+            font-size: 1rem;
+            h4 {
+                font-size: 2.1rem;
+            }
+        }
+    }
 }

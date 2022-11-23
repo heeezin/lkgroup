@@ -1,31 +1,35 @@
 <template>
     <div class="section">
         <div class="imageColor"></div>
-        <div class="shopImgBack">
-            <div class="shopImg">
-                <img src="../../assets/images/shop1.png" alt="">
-                <img src="../../assets/images/shop2.png" alt="">
+        <div class="secInner">
+            <div class="shopImgBack">
+                <div class="shopImgWrap">
+                    <div class="shopImg">
+                        <img src="../../assets/images/shop1.png" alt="">
+                        <img src="../../assets/images/shop2.png" alt="">
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="shop main">
-            <div class="shop_inner main_inner">
-                <div class="main_tit"
-                    data-sal="slide-up"
-                    data-sal-delay="300"
-                >
-                    <h3>온라인 명품 쇼핑몰 ‘MEFLEX’</h3>
+            <div class="shop main">
+                <div class="shop_inner main_inner">
+                    <div class="main_tit"
+                        data-sal="slide-up"
+                        data-sal-delay="300"
+                    >
+                        <h3>온라인 명품 쇼핑몰 ‘MEFLEX’</h3>
+                    </div>
+                    <div class="main_txt"
+                        data-sal="slide-up"
+                        data-sal-delay="500"
+                    >
+                        <p>
+                            자사의 인플루언서 풀을 활용한
+                            마케팅을 통해 다양한 명품 판매 및
+                            커뮤니티 채널 구축
+                        </p>
+                    </div>
+                    <more-btn/>
                 </div>
-                <div class="main_txt"
-                    data-sal="slide-up"
-                    data-sal-delay="500"
-                >
-                    <p>
-                        자사의 인플루언서 풀을 활용한
-                        마케팅을 통해 다양한 명품 판매 및
-                        커뮤니티 채널 구축
-                    </p>
-                </div>
-                <more-btn/>
             </div>
         </div>
     </div>
@@ -42,7 +46,8 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import url('../../assets/css/main.scss');
+@import '@/assets/css/reset.scss';
+@import '@/assets/css/main.scss';
 .section {
     height: 100vh;
     position: relative;
@@ -64,7 +69,7 @@ export default {
         left: 13%;
         top: 16%;
         .shopImg {
-            position: absolute;
+            display: flex;
             left: 40px;
             img {
                 width: 255px;
@@ -102,6 +107,35 @@ export default {
                 font-weight: 700;
                 display: block;
                 padding: 1vw;
+            }
+        }
+    }
+}
+@media (max-width: $mobile){
+    .section {
+    .imageColor {
+    }
+    .shopImgBack {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        left: 7%;
+        .shopImg {
+            display: flex;
+            width: 100%;
+            img {
+                width: 40vw;
+                height: 45vh;
+            }
+        }
+    }
+    }
+}
+@media (max-width: $Smobile){
+    .main {
+        .main_inner {
+            .main_txt {
+                p {font-size: 1.3rem;}
             }
         }
     }

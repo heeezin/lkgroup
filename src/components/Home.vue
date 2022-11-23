@@ -42,5 +42,6 @@
     
     <style>
     @import "@/assets/css/reset.scss";
+    @import "@/assets/css/main.scss";
     </style>
     
