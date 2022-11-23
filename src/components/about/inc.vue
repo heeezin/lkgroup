@@ -37,21 +37,5 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-    .section {
-        background: var(--bg);
-        .main_inner {
-            padding: 120px 30px;
-            video {
-                width: 100%;
-                height: 600px;
-            }
-            .main_tit {
-                padding-top: 30px;
-                color: var(--text);
-                p {
-                    padding: 10px 0;
-                }
-            }
-        }
-    }
+@import '@/assets/css/about.scss';
 </style>

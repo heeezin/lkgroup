@@ -56,16 +56,10 @@ export default {
     justify-content: flex-end;
     height: 50vw;
     .main_inner {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2rem;
         width: 51%;
         color: #fff;
         padding: 20vw 5vw;
         .main_tit{
-        }
-        .main_txt{
-            padding: 2vw 0;
-            font-size: 1.5rem;
         }
     }
 }

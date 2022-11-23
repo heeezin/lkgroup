@@ -1,5 +1,10 @@
 @import './reset.scss';
 
+h3 {font-size: 2.5rem;}
+p {font-size: 1.5rem;}
+* {
+  font-family: 'Montserrat', sans-serif;
+}
 .section {
     width: 100%;
     height: 100vh;
@@ -69,7 +74,7 @@
   }
 }
 @media (max-width: $Smobile){
-  p {font-size: 1.2rem;}
+  p {font-size: 1.3rem;}
   h3 {font-size: 1.7rem;}
   .main_btn {
     width: 180px;

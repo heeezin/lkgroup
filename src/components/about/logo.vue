@@ -23,34 +23,6 @@
 <script>
 </script>
 <style lang="scss" scoped>
-@import "@/assets/css/reset.scss";
-    .section{ 
-        .main_inner {
-            padding-top: 80px;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            .main_logo {
-                img {
-                    width: 100%;
-                }
-            }
-            .main_tit {
-                color: var(--text);
-                h4 {
-                    font-weight: 700;
-                    font-size: 2rem;
-                }
-                span {
-                    font-weight: 700;
-                }
-            }
-        }
-    }
-    @media (max-width: $tablet){
-        .main_logo{display: block; width: 100%;}
-        .main_tit {
-            width: 100%;
-        }
-    }
+@import '@/assets/css/about.scss';
+
 </style>

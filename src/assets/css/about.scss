@@ -1,0 +1,101 @@
+@import "@/assets/css/reset.scss";
+
+p {
+    padding-top: 2%;
+}
+.section {
+    background: var(--bg);
+    .main_inner {
+        padding: 120px 30px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .main_logo {
+            img {
+                width: 500px;
+            }
+        }
+        .main_tit {
+            color: var(--text);
+            h4 {
+                font-weight: 700;
+                font-size: 2rem;
+            }
+            span {
+                font-weight: 700;
+            }
+        }
+        
+        video {
+            width: 45%;
+        }
+        .main_tit {
+            width: 45%;
+            padding-top: 30px;
+            color: var(--text);
+            text-align: c;
+            p {
+            }
+        }
+    }
+}
+@media (max-width: $tablet){
+    h3 {font-size: 2.3rem;}
+    p { 
+        font-size: 1.6rem;
+    }
+
+    .section {
+        height: 150vh;
+        .main_inner {
+            padding: 120px 30px 0;
+            display: block;
+            .main_logo{
+                display: block; 
+                width: 100%;
+                text-align: center;
+            }
+            .main_tit {
+                width: 100%;
+            }
+            video {
+                width: 100%;
+            }
+            .main_tit {
+                width: 100%;
+                padding-top: 10%;
+            }
+        }
+    }
+    
+}
+@media screen and (min-width:$Smobile) and (max-width:$mobile) {
+    .section {
+        height: 100%;
+        .main_inner {
+            padding: 120px 30px;
+            .main_logo {
+                img {
+                    width: 335px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: $Smobile) {
+    h3 {font-size: 1.8rem;}
+    p { 
+        font-size: 1.1rem;
+    }
+    .section {
+        height: 100%;
+        .main_inner {
+            padding: 120px 30px;
+            .main_logo {
+                img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}

@@ -1,13 +1,14 @@
 @import "@/assets/css/reset.scss";
 
-footer {
+#footer {
     background-color: #737373;
     color: var(--text);
     height: 40vh;
     .foot_inner {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
+        padding: 4% 4% 0;
         h4 {
             color: var(--text);
             font-size: 3rem;
@@ -45,7 +46,6 @@ footer {
             }   
         }
         .foot_info {
-            padding-top: 4%;
             .sns {
                 padding: 4% 0 2%;
                 a{
@@ -59,7 +59,7 @@ footer {
                 font-size: 1rem;
                 .copy {
                     font-size: 0.8rem;
-                    padding-top: 1vw;
+                    padding-top: 5%;
                 }
             }
         }
@@ -69,7 +69,7 @@ footer {
 @media (max-width: $mobile) {
     #footer {
         .foot_inner {
-            padding: 7%;
+            justify-content: center;
             h4 {
                 font-size: 2.3rem;
             }
