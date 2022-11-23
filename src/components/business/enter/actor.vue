@@ -4,8 +4,8 @@
             <div class="enterTit">
                 <span>MEFLEX ENTERTAINMENT<br>ACTOR LINE UP</span>
             </div>
-            <div class="enterActor">
-                <img src="" alt="">
+            <div class="enterActor" v-for="item in items">
+                <img :src="item.images" />
             </div>
             <div class="main_btn"
                 data-sal="slide-up"
@@ -20,6 +20,39 @@
 import sal from "sal.js";
 
 export default {
+    data() {
+        return {
+            items: [
+                {
+                    images: '@/assets/images/intro.png'
+                },
+                {
+                    images: '@/assets/images/enter2.png'
+                },
+                {
+                    images: '@/assets/images/enter3.png'
+                },
+                {
+                    images: '@/assets/images/enter.png'
+                },
+                {
+                    images: '@/assets/images/enter2.png'
+                },
+                {
+                    images: '@/assets/images/enter3.png'
+                },
+                {
+                    images: '@/assets/images/enter.png'
+                },
+                {
+                    images: '@/assets/images/enter2.png'
+                },
+                {
+                    images: '@/assets/images/enter3.png'
+                }
+            ]
+        }
+    },
     mounted() {
         sal()
     }

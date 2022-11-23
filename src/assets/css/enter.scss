@@ -1,15 +1,21 @@
 .section {
     background: var(--bg);
     .secInner {
+        padding: 120px 0;
         display: flex;
         justify-content: space-around;
         align-items: center;
         color: var(--text);
         .enterTit {
             width: 40%;
+            img {
+                width: 30vw;
+                padding-top: 10%;
+            }
             span {
                 font-size: 2rem;
                 font-weight: 700;
+                display: block;
             }
             p {
                 font-size: 1.5rem;
@@ -21,9 +27,33 @@
             width: 40%;
             p {font-size: 1.5rem;}
         }
+        .enterImg {
+            img {
+                width: 250px;
+                height: 400px;
+            }
+        }
     }
 }
-img {
-    padding-top: 10%;
-    width: 500px;
+@media (max-width: $tablet) {
+    .section {
+        height: 150vh;
+        .secInner {
+            padding: 120px 30px;
+            display: block;
+            .enterTit {
+                width: 100%;
+                img {
+                    text-align: center;
+                }
+            }
+            .enterTxt {
+                width: 100%;
+            }
+            .enterImg {
+                text-align: center;
+                
+            }
+        }
+    }
 }

@@ -14,8 +14,15 @@
                     그것이 MEFLEX엔터테인먼트가 추구하는 가치입니다.
                 </p>
             </div>
-            <div class="enterImg">
-                <img src="@/assets/images/SOTHEBYS_BG2.png" alt="">
+            <div class="enterTxt">
+                <div class="enterImg">
+                    <img src="@/assets/images/SOTHEBYS_BG2.png" alt="">
+                    <img src="@/assets/images/SOTHEBYS_BG2.png" alt="">
+                </div>
+                <div class="enterImg">
+                    <img src="@/assets/images/SOTHEBYS_BG2.png" alt="">
+                    <img src="@/assets/images/SOTHEBYS_BG2.png" alt="">
+                </div>
             </div>
         </div>
     </div>
