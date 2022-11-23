@@ -100,4 +100,24 @@ export default {
         }
     }
 }
+@media (max-width: $Smobile) {
+    .section {
+        .secInner{
+            padding: 120px 30px;
+            .introImg {
+            .backImg {
+                width: 330px;
+                height: 330px;
+                img {
+                    left: 0;
+                    top: 28%;
+                    width: 320px;
+                    height: 316px;
+                }
+
+            }
+        }
+        }
+    }
+}
 </style>

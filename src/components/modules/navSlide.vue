@@ -87,6 +87,17 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/assets/css/reset.scss";
+@import '@/assets/css/about.scss';
+.swiper-button-prev {
+    color: #fff;
+}
+
+span { font-size: 3rem;}
+p { font-size: 3.3rem;}
+span, p {
+        font-weight: 700;
+        color: var(--text);
+    }
 .imageColor {
         background-color: rgba(0,0,0,0.4);
         position: absolute;
@@ -102,11 +113,6 @@ export default {
     top: 0;
 }
 .swiper-slide {
-    span, p {
-        font-weight: 700;
-        font-size: 3rem;
-        color: var(--text);
-    }
     z-index: -1;
     text-align: center;
     font-size: 18px;
@@ -166,8 +172,13 @@ export default {
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
     padding-right: 80px;
 }
+@media (max-width: $tablet) {
+    
+}
 
 @media (max-width: $mobile) {
+    span { font-size: 2.2rem;}
+    p { font-size: 3rem;}
     .swiper-slide:nth-child(1) {
     background: url('../../assets/images/m_history_01.jpg') center center no-repeat;
 }
@@ -192,5 +203,9 @@ export default {
 .swiper-slide:nth-child(8) {
     background: url('../../assets/images/m_history_08.jpg') center center no-repeat;
 }
+}
+@media (max-width: $Smobile) {
+    span { font-size: 1.2rem;}
+    p { font-size: 1.4rem;}
 }
 </style>

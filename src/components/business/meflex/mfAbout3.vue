@@ -42,19 +42,6 @@ export default {
                     font-size: 1.3rem;
                 }
             }
-            .backImg {
-                display: flex;
-                margin: auto;
-                img {
-                    width: 600px;
-                    height: 540px;
-                    position: absolute;
-                    left: 11%;
-                    z-index: 100;
-                    top: 29%;
-                }
-
-            }
         }
     }
     .main_btn {
@@ -81,7 +68,7 @@ export default {
         font-size: 2rem;
     }
 }
-@media (max-width: $tablet) {
+@media screen and (min-width: $Smobile) and (max-width: $mobile) {
     .section {
         .secInner{
             .introImg {
@@ -89,23 +76,8 @@ export default {
                 img {
                     left: 0;
                     top: 28%;
-                }
-
-            }
-        }
-        }
-    }
-}
-@media (max-width: $mobile) {
-    .section {
-        .secInner{
-            .introImg {
-            .backImg {
-                img {
-                    left: 15%;
-                    top: 29%;
-                    width: 500px;
-                    height: 440px;
+                    width: 300px;
+                    height: 350px;
                 }
 
             }

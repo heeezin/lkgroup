@@ -41,7 +41,7 @@ components: { Header, MfAbout, MfAbout2, MfAbout3},
 }
 </script>
 <style lang="scss" scoped>
+@import "@/assets/css/reset.scss";
 @import "@/assets/css/main.scss";
 @import "@/assets/css/meflex.scss";
-
 </style>

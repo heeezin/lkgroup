@@ -16,7 +16,7 @@
                     @click="subTab=2"
                     v-bind:class="[subTab === 2 ? subMenu:'']">BUSINESS</a>
                 <ul class="mbSub" v-if="subTab === 2">
-                    <li><a href="#">MEFLEX</a></li>
+                    <li><router-link to="/meflex">MEFLEX</router-link></li>
                     <li><router-link to="/blockchain">BLOCKCHAIN/NFT</router-link></li>
                     <li><router-link to="/entertainment">ENTERTAINMENT</router-link></li>
                     <li><a href="#">AD/MARKETING</a></li>
