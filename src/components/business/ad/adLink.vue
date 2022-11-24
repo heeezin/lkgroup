@@ -3,7 +3,7 @@
         <div class="colorBg">
             <div class="secInner">
                 <div class="introLeft">
-                    <h3>AD/MARKETING</h3>
+                    <span>AD/MARKETING</span>
                     <h4>제품 브랜딩 / 마케팅</h4>
                     <p>
                         전반적인 브랜딩을 함께하며 브랜드 로고 디자인, 제품 패키지 디자인 등을진행하였습니다.

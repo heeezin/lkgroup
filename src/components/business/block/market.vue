@@ -17,7 +17,7 @@
                     <div class="nftTxt">
                         <span>예술, 그리고 블록체인</span>
                         <p>MEFLEX는 인플루언서와 함께하는 쇼핑몰을 운영하며 축적된 데이터를 분석한 결과 인플루언서 IP 에 주목하였고 이를 기반으로 블록체인 기술을 활용한 실물 NFT 마켓 플레이스를 구축하여 디지털 이코노미 플랫폼을 완성하고자 합니다.</p>
-                        <div class="main_btn"
+                        <div class="mainBtn"
                         data-sal="slide-up"
                         data-sal-delay="700"    
                     >

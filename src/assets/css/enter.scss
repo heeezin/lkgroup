@@ -1,25 +1,28 @@
 .section {
     background: var(--bg);
     .secInner {
-        padding: 120px 0;
+        padding: 120px 0px;
         display: flex;
         justify-content: space-around;
         align-items: center;
         color: var(--text);
         .enterTit {
             width: 40%;
-            img {
-                width: 30vw;
-                padding-top: 10%;
+            .enterImg {
+                width: 100%;
+                background: yellow;
+                img {
+                    width: 100%;
+                }
             }
             span {
                 font-size: 2rem;
                 font-weight: 700;
                 display: block;
+                padding-bottom: 7%;
             }
             p {
                 font-size: 1.5rem;
-                padding-top: 7%;
             }
             
         }
@@ -29,18 +32,40 @@
         }
         .enterImg {
             img {
-                width: 250px;
+                width: 47%;
                 height: 400px;
+                &:nth-child(odd) {
+                    margin-right: 3%;
+                }
             }
         }
+        .enterActor {
+            float: left;
+            background: green;
+            width: 13%;
+            height: 200px;
+            margin-right: 1%;
+            margin-bottom: 1%;
+            img {
+                width: 300px;
+            }
+        }
+        
     }
+}
+.main_btn {
+    width: 330px;
+    margin: auto;
 }
 @media (max-width: $tablet) {
     .section {
-        height: 150vh;
+        height: 100%;
         .secInner {
             padding: 120px 30px;
             display: block;
+            .enterActor {
+                width: 32%;
+            }
             .enterTit {
                 width: 100%;
                 img {
@@ -49,10 +74,49 @@
             }
             .enterTxt {
                 width: 100%;
+                margin-top: 10%;
             }
             .enterImg {
                 text-align: center;
                 
+            }
+        }
+    }
+}
+@media (max-width: $mobile) {
+.section {
+    .secInner {
+        .enterImg {
+            img {
+                height: 30vh;
+            }
+        }
+    }
+}
+}
+@media (max-width: $Smobile) {
+    .main_btn {
+        width: 281px;
+    }
+    .section {
+        .secInner {
+            .enterActor {
+                width: 49%;
+            }
+            .enterTit {
+                span {
+                    font-size: 1.3rem;
+                    font-weight: 700;
+                }
+                p {
+                    font-size: 1.2rem;
+                }
+                
+            }
+            .enterTxt {
+                p {
+                    font-size: 1.2rem;
+                }
             }
         }
     }

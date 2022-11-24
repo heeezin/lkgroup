@@ -3,7 +3,7 @@
         <div class="colorBg">
             <div class="secInner">
                 <div class="introLeft">
-                    <h3>AD/MARKETING</h3>
+                    <span>AD/MARKETING</span>
                     <h4>기업 파티/행사 기획 및 진행 대행</h4>
                     <p>
                         행사 목적에 맞게 전체적인 기획 구성부터 장소 섭외, 진행까지 책임집니다.

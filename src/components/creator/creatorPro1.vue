@@ -4,11 +4,11 @@
         <div class="main_inner">
             <div class="profile">
                 <div class="profImg">
-                    <img src="@/assets/images/sns1.png" alt="">
+                    <img src="" alt="">
                 </div>
                 <div class="profTxt">
                     <a href=""><p>texttexttexttexttexttext</p></a>
-                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>베우 정규수</p></a>
                 </div>
                 <div class="profSns">
                     <a href="/"><i class="fa-brands fa-instagram"></i></a>
@@ -22,7 +22,7 @@
                 </div>
                 <div class="profTxt">
                     <a href=""><p>texttexttexttexttexttext</p></a>
-                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>배우 방은진</p></a>
                 </div>
                 <div class="profSns">
                     <a href="/"><i class="fa-brands fa-instagram"></i></a>

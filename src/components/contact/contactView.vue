@@ -64,7 +64,7 @@ export default {
     .cont_inner {
         padding: 80px 30px;
         .address {
-            padding: 2vw 0;
+            padding: 5% 0 10%;
             span {
                 font-size: 1.5rem;
                 font-weight: 700;

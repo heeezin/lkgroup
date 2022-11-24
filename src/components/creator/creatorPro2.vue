@@ -4,7 +4,7 @@
         <div class="main_inner">
             <div class="profile">
                 <div class="profImg">
-                    <img src="@/assets/images/sns1.png" alt="">
+                    <img src="" alt="">
                 </div>
                 <div class="profTxt">
                     <a href=""><p>2texttexttexttexttexttext</p></a>

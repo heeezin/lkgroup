@@ -1,5 +1,6 @@
 @import "@/assets/css/reset.scss";
 
+.section {background: var(--bg); height: 100%;}
 .main_inner {
     padding: 120px 30px;
     align-items: center;
@@ -25,9 +26,10 @@
             }
         }
         .profTxt {
-            padding-top: 20px;
+            padding: 5% 0;
         }
         .profSns {
+            padding-bottom: 5%;
             a {
                 font-size: 50px;
                 padding: 0 10px;
@@ -57,7 +59,7 @@
             width: 100%;
             .profImg {
                 img {
-                    width: 100vw;
+                    width: 100%;
                 }
             }
         }

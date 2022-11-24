@@ -2,97 +2,157 @@
     <Header/>
     <div class="section">
         <div class="main_inner">
-            <div class="profile">
-                <div class="profImg">
-                    <a href=""><img src="" alt=""></a>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
                 </div>
-                <div class="profTxt">
-                    <span>2texttexttexttexttexttext</span>
-                    <p>2texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div class="profImg">
-                    <a href=""><img src="" alt=""></a>    
-                </div>
-                <div class="profTxt">
-                    <span>2texttexttexttexttexttext</span>
-                    <p>2texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>dddddddd</p></a>
                 </div>
             </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>dddddd</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsImg">
+                    <img src="" alt="">
+                </div>
+                <div class="newsTxt">
+                    <a href=""><p>2texttexttexttexttexttext</p></a>
+                    <a href=""><p>texttexttexttexttexttext</p></a>
+                </div>
+            </div>
+        <page-btn/>
         </div>
     </div>
-    <div class="section">
-        <div class="main_inner">
-            <div class="profile">
-                <div class="profImg">
-                    <a href=""><img src="" alt=""></a>
-                </div>
-                <div class="profTxt">
-                    <span>texttexttexttexttexttext</span>
-                    <p>texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div class="profImg">
-                    <a href=""><img src="" alt=""></a>
-                </div>
-                <div class="profTxt">
-                    <span>texttexttexttexttexttext</span>
-                    <p>texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
-                </div>
-            </div>
-        </div>
-    </div>    
-    <div class="section">
-        <div class="main_inner">
-            <div class="profile">
-                <div class="profImg">
-                    <a href=""><img src="" alt=""></a>
-                </div>
-                <div class="profTxt">
-                    <span>texttexttexttexttexttext</span>
-                    <p>texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div class="profImg">
-                    <a href=""><img src="" alt=""></a>
-                </div>
-                <div class="profTxt">
-                    <span>texttexttexttexttexttext</span>
-                    <p>texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section">
-        <div class="main_inner">
-            <div class="profile">
-                <div class="profImg">
-                    <a href=""><img src="" alt=""></a>
-                </div>
-                <div class="profTxt">
-                    <span>2texttexttexttexttexttext</span>
-                    <p>2texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div class="profImg">
-                    <a href=""><img src="" alt=""></a>
-                </div>
-                <div class="profTxt">
-                    <span>2texttexttexttexttexttext</span>
-                    <p>2texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <page-btn/>
 </template>
 <script>
     import Header from "@/components/Header.vue"
-    import PageBtn from '../news/pageBtn.vue'
+    import PageBtn from './pageBtn.vue'
     
     export default {
         components: {

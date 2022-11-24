@@ -3,7 +3,9 @@
         <div class="secInner">
             <div class="enterTit">
                 <span>MEFLEX ENTERTAINMENT</span>
-                <img src="@/assets/images/symbol.png" alt="">
+                <div class="enterImg">
+                    <img src="" alt="">
+                </div>
             </div>
             <div class="enterTxt">
                 <p>

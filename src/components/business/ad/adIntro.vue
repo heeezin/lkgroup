@@ -3,7 +3,7 @@
         <div class="colorBg">
             <div class="secInner">
                 <div class="introLeft">
-                    <h3>AD/MARKETING</h3>
+                    <span>AD/MARKETING</span>
                     <h4>인플루언서 / SNS 마케팅</h4>
                     <p>
                         소속 배우, 인플루언서를 활용한 SNS 마케팅
