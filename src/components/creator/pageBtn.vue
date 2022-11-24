@@ -1,9 +1,11 @@
 <template>
-    <div class="page">
-        <div class="pagePre" v-for="page in list" :key="page.name" :class="{active: list == ''}">
-            <router-link :to="page.href" :class="{active:isActive}">
-                <span>{{page.name}}</span>
-            </router-link>
+    <div class="pageBtn">
+        <div class="page">
+            <div class="pagePre" v-for="page in list" :key="page.name" :class="{active: list == ''}">
+                <router-link :to="page.href" :class="{active:isActive}">
+                    <span>{{page.name}}</span>
+                </router-link>
+            </div>
         </div>
     </div>
 </template>
@@ -30,10 +32,15 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.pageBtn { 
+    width: 100%;
+    height: 100%;
+}
 .page {
+    width: 100%;
+    height: 200px;
     display: flex;
     justify-content: center;
-    padding: 250px;
     .pagePre {
         margin-right: 20px;
     }

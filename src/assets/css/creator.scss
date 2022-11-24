@@ -1,17 +1,28 @@
+@import "@/assets/css/reset.scss";
+
 .main_inner {
     padding: 120px 30px;
     align-items: center;
     justify-content: space-around;
+    overflow: hidden;
     .profile {
-        width: 25%;
+        float: left;
+        width: 22%;
         height: 50%;
         text-align: center;
+        margin-right: 4%;
+        &:nth-child(4n) {
+            margin-right: 0;
+        }
         .profImg {
             border-radius: 20px;
             margin: 0 auto;
-            width: 80%;
-            height: 600px;
+            width: 100%;
             background: gray;
+            img {
+                width: 19vw;
+                height: 300px;
+            }
         }
         .profTxt {
             padding-top: 20px;
@@ -27,7 +38,28 @@
 @media screen and (min-width: $mobile) and (max-width: $tablet) {
     .main_inner {
         .profile {
-            width: 50%;
+            width: 48%;
+            &:nth-child(2n) {
+                margin-right: 0;
+            }
+            .profImg {
+                img {
+                    width: 45vw;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $mobile) {
+    .main_inner {
+        .profile {
+            width: 100%;
+            .profImg {
+                img {
+                    width: 100vw;
+                }
+            }
         }
     }
 }
