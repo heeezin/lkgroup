@@ -1,13 +1,11 @@
 <template>
     <div class="section" key="down" v-if="showHeader">
       <video controls autoplay loop muted id="player">
-        <source 
-            src="http://lkpartnersinc.co.kr/img/video/mefelx_video01.mp4"
-        />
+          <source src="http://lkpartnersinc.co.kr/img/video/mefelx_video01.mp4">
       </video>
-      <div class="playBtn">
+      <!-- <div class="playBtn">
         <button v-on:click="unmute()"></button>
-      </div>
+      </div> -->
     </div>
 </template>
 <script>
@@ -59,17 +57,28 @@
       },
       data: () =>({
         player : true,
-        showHeader: true
+        showHeader: true,
+        mainVideo: true,
+        // mainVideo : {}
+        // video: [
+        //   { src:"http://lkpartnersinc.co.kr/img/video/mefelx_video01.mp4"},
+        //   { src:"http://lkpartnersinc.co.kr/img/video/mefelx_video01.mp4"},
+        // ]
       }),
       methods:{
         unmute() {
           player.muted = !player.muted;
-        }
+        },
+      },
+      mounted() {
+        // if(window.innerWidth < 768) {
+        //   this.mainVideo = false;
+        // } 
       }
     }
 </script>
 <style lang="scss" scoped>
-@import url('../../assets/css/reset.scss');
+@import "@/assets/css/reset.scss";
 
 body{
     margin: 0;
@@ -100,5 +109,15 @@ body{
 }
 video {
   width: 100%;
+}
+@media (max-width: $mobile) {
+  // video {
+  //   background: url("http://me-flex.co.kr/newlk/meflex_YongSiu.mp4");
+  //   position: absolute;
+  //   width: 100%;
+  //   height: 100vh;
+  //   z-index: 100;
+  //   object-fit: cover;
+  // }
 }
 </style>

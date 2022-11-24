@@ -50,25 +50,34 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/css/main.scss";
 @import "@/assets/css/block.scss";
-
+p {
+            font-size: 1.5rem;
+            padding-top: 3%;
+            font-weight: 500;
+        }
 .introSec {
     background: url('@/assets/images/nft1.png') center center /cover no-repeat;
     color: var(--text);
     .secInner {
-        padding-top: 17%;
+        padding-top: 15%;
         h3 {
-            font-size: 2.5rem;
+            font-size: 2.7rem;
         }
-        p {
-            font-size: 1.2rem;
-            padding-top: 3%;
-        }
+        
         
     }
 }
 @media (max-width: $mobile) {
     .introSec {
         background: url('@/assets/images/nftM1.png') center center /cover no-repeat;
+        .secInner {
+            padding-top: 33%;
+        }
+    }
+}
+@media (max-width: $Smobile) {
+    p {
+        font-size: 1.2rem;
     }
 }
 </style>

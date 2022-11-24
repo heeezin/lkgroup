@@ -63,6 +63,13 @@ p {font-size: 1.5rem;}
       padding: 1vw;
   }
 }
+@media (max-width: $tablet) {
+  .main {
+    .main_inner {
+      width: 80%;
+    }
+  }
+}
 @media (max-width: $mobile){
   p {font-size: 1.5rem;}
   .main_btn {

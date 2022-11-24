@@ -32,7 +32,7 @@ export default {
     .news {
         width: 100%;
         height: 60vh;
-        background: #7DB055;
+        background: var(--bg);
     }
 
 

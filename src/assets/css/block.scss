@@ -5,7 +5,6 @@ p {
 span {
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--text);
 }
 
 .section {
@@ -19,11 +18,16 @@ span {
         top: 0;
     }
     .secInner {
-        padding: 120px 0;
+        padding: 6% 0 0;
         display: flex;
         justify-content: space-around;
     .nftLogo {
         width: 40%;
+        span {
+            display: block;
+            padding-bottom: 10%;
+            color: var(--text);
+        }
         p {
             color: var(--text);
         }
@@ -33,8 +37,8 @@ span {
         }
         
         img { 
-            width: 40vw;
-            height: 20vw;
+            width: 45vw;
+            height: 16vw;
             &:last-child {
             }
         }
@@ -98,7 +102,7 @@ span {
             }
         .secInner {
             display: block;
-            padding: 120px 30px;
+            padding: 20% 30px;
             .nftLogo, .nftTxt {
                 width: 100%;
                 img {
@@ -128,6 +132,7 @@ span {
                 width: 100%;
             }
             .nftTxt {
+                padding-top: 9%;
                 .iconWrap {
                     .iconBox {
                         width: 27vw;
@@ -146,26 +151,43 @@ span {
     span {
         font-size: 1.8rem;
     }
+    p {
+        font-size: 1.9rem;
+    }
     .section {
         height: 190vh;
         .colorBg {
             height: 190vh;
             }
         .secInner {
+            padding-top: 15%;
+
+            .nftLogo {
+                span {
+                    padding-bottom: 7%;
+                }
+            }
             .nftTxt {
                 .iconWrap {
                     display: block;
                     .iconBox {
                         margin-right: 0;
-                        margin-bottom: 30px;
+                        margin-bottom: 3%;
                         width: 100%;
                         height: 40vw;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        img {
+                            width: 31vw;
+                            height: 31vw;
+                        }
                     }
                 }
             }
             .nftImg {
                 img {
-                    width: 190px;
+                    width: 45%;
                 }
             }
         }

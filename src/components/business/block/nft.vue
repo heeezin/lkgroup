@@ -62,11 +62,11 @@ p {
     }
 }
 @media (max-width: $mobile) {
-    .section {
-        height: 190vh;
-        .colorBg {
-            height: 190vh;
-            }
+    p {
+        font-size: 1.7rem;
     }
+}
+@media (max-width: $Smobile) {
+    p {font-size: 1.2rem;}
 }
 </style>
