@@ -59,11 +59,8 @@
         player : true,
         showHeader: true,
         mainVideo: true,
-        // mainVideo : {}
-        // video: [
-        //   { src:"http://lkpartnersinc.co.kr/img/video/mefelx_video01.mp4"},
-        //   { src:"http://lkpartnersinc.co.kr/img/video/mefelx_video01.mp4"},
-        // ]
+        // mVideo: `http://lkpartnersinc.co.kr/img/video/mefelx_video01.mp4`,
+        // video: `http://me-flex.co.kr/newlk/meflex_YongSiu.mp4`
       }),
       methods:{
         unmute() {

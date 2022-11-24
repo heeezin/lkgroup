@@ -16,7 +16,6 @@
     import Intro from './main/intro.vue';
     import mainVideo from './main/mainVideo.vue';
     import Shop from './main/shop.vue';
-
     import news from './main/news.vue';
     import creator from './main/creator.vue'
     

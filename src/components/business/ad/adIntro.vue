@@ -1,6 +1,11 @@
 <template>
     <div class="section">
         <div class="colorBg">
+            <div class="adBgWrap">
+                <div class="adBg1"></div>
+                <div class="adBg2"></div>
+                <div class="adBg3"></div>
+            </div>
             <div class="secInner">
                 <div class="introLeft">
                     <span>AD/MARKETING</span>

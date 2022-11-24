@@ -16,10 +16,8 @@
             margin-right: 0;
         }
         .newsImg {
-            border-radius: 20px;
             margin: 0 auto;
             width: 100%;
-            background: gray;
             img {
                 width: 19vw;
                 height: 300px;
@@ -52,6 +50,7 @@
             width: 100%;
             .newsImg {
                 img {
+                    border-radius: 20px;
                     width: 100%;
                 }
             }
