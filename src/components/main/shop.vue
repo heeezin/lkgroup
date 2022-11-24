@@ -1,6 +1,5 @@
 <template>
     <div class="section">
-        <div class="imageColor"></div>
         <div class="secInner">
             <div class="shopImgBack">
                 <div class="shopImgWrap">
@@ -52,13 +51,14 @@ export default {
     height: 100vh;
     position: relative;
     z-index: 1;
-    .imageColor {
-        background-color: rgba(0,0,0,0.3);
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-    }
+    background: var(--bg);
+    // .imageColor {
+    //     background-color: rgba(0,0,0,0.9);
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 100%;
+    //     z-index: -1;
+    // }
     .shopImgBack {
         background: -webkit-linear-gradient(140deg, rgb(81, 25, 210), rgb(135, 20, 135));
         z-index: -2;
