@@ -1,7 +1,7 @@
 <template>
     <swiper
         :spaceBetween="30"
-        :slides-per-view="3"
+        :slides-per-view="1.2"
         :autoplay="{
         disableOnInteraction: false,
         }"

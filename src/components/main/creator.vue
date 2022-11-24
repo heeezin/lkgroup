@@ -30,10 +30,14 @@ export default {
 .sec_tit {
     padding: 5vw 5vw 1vw;
     z-index: -1;
+    h3 {
+        font-size: 2.2rem;
+        color: var(--text);
+    }
 }
 .main_btn {
     position: absolute;
-    bottom: 2%;
-    left: 44vw;
+    bottom: 4%;
+    left: 27%;
 }
 </style>

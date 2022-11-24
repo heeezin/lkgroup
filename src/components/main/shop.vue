@@ -4,8 +4,7 @@
             <div class="shopImgBack">
                 <div class="shopImgWrap">
                     <div class="shopImg">
-                        <img src="../../assets/images/shop1.png" alt="">
-                        <img src="../../assets/images/shop2.png" alt="">
+                        <img src="../../assets/images/meflex1.png" alt="">
                     </div>
                 </div>
             </div>
@@ -27,10 +26,10 @@
                             커뮤니티 채널 구축
                         </p>
                     </div>
-                    <more-btn/>
                 </div>
             </div>
         </div>
+        <more-btn/>
     </div>
 </template>
 <script>
@@ -66,17 +65,15 @@ export default {
         width: 550px;
         height: 550px;
         border-radius: 50%;
+        height: 50vh;
         left: 13%;
         top: 16%;
         .shopImg {
             display: flex;
             left: 40px;
             img {
-                width: 255px;
+                width: 400px;
                 height: 460px;
-                &:last-child {
-                    transform: rotate(10deg);
-                }
             }
         }
     }
@@ -90,7 +87,6 @@ export default {
         font-size: 2rem;
         width: 50%;
         color: #fff;
-        padding: 20vw 5vw;
         .main_tit{
         }
         .main_txt{
@@ -113,22 +109,39 @@ export default {
 }
 @media (max-width: $mobile){
     .section {
+        .secInner {
+            padding: 0;
+        }
     .imageColor {
     }
     .shopImgBack {
-        width: 300px;
+        width: 84%;
         height: 300px;
         border-radius: 50%;
         left: 7%;
         .shopImg {
-            display: flex;
+            display: block;
             width: 100%;
             img {
-                width: 40vw;
-                height: 45vh;
+                width: 100%;
+                height: 35vh;
             }
         }
     }
+    .shop {
+        height: 50vh;
+    }
+    }
+    .main {
+        .main_inner {
+            width: 100%;
+            text-align: end;
+            padding: 126% 4% 0;
+            .main_tit{
+          width: 100%;
+        }
+
+        }
     }
 }
 @media (max-width: $Smobile){

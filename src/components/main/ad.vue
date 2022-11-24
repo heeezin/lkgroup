@@ -38,7 +38,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import url('../../assets/css/main.scss');
+@import "@/assets/css/reset.scss";
+@import "@/assets/css/main.scss";
+
 .section {
     background: url("../../assets/images/ad.png") no-repeat center / cover;
     position: relative;
@@ -60,6 +62,15 @@ export default {
         color: #fff;
         padding: 20vw 5vw;
         .main_tit{
+        }
+    }
+}
+@media (max-width: $mobile) {
+    .main {
+        .main_inner {
+            text-align: center;
+            width: 100%;
+            padding-top: 138%;
         }
     }
 }

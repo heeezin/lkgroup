@@ -81,4 +81,13 @@ export default {
         }
     }
 }
+h3 {padding-bottom: 7%;}
+@media (max-width: $mobile) {
+    .main {
+        .main_inner {
+            width: 100%;
+            padding: 100% 4% 0;
+        }
+    }
+}
 </style>

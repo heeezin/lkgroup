@@ -29,18 +29,16 @@ p {font-size: 1.5rem;}
     h3 {
     font-size: 3rem;
     }
-}
+  }
 .main {
-    display: flex;
-    justify-content: center;
-    height: 50vw;
     .main_inner {
+      width: 90%;
         font-family: 'Montserrat', sans-serif;
         font-size: 2rem;
-        width: 50%;
         color: #fff;
-        padding-top: 20vw;
+        padding: 100% 4% 0;
         .main_tit{
+          width: 90%;
         }
         .main_txt{
             padding: 1vw 0;
@@ -66,7 +64,6 @@ p {font-size: 1.5rem;}
 @media (max-width: $tablet) {
   .main {
     .main_inner {
-      width: 80%;
     }
   }
 }

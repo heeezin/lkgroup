@@ -26,9 +26,9 @@
                         회사입니다.
                     </p>
                 </div>
-                <more-btn/>
             </div>
         </div>
+        <more-btn/>
     </div>
 </template>
 <script>
