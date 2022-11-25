@@ -7,15 +7,15 @@
         :modules="modules"
         class="coverSwiper"
         >
-        <swiper-slide>1</swiper-slide>
-        <swiper-slide>2</swiper-slide>
-        <swiper-slide> 3</swiper-slide>
-        <swiper-slide> 4</swiper-slide>
-        <swiper-slide> 5</swiper-slide>
-        <swiper-slide> 6</swiper-slide>
-        <swiper-slide> 7</swiper-slide>
-        <swiper-slide> 8</swiper-slide>
-        <swiper-slide> 9</swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
     </swiper>
 </template>
 <script>
@@ -67,7 +67,18 @@ export default {
     align-items: center;
 }
 .coverSwiper .swiper-slide:nth-child(1) {
-    background: url('../../assets/images/creator1.png') center center no-repeat;
+    background: url('@/assets/images/creat.png') center center/cover no-repeat;
+}
+.coverSwiper .swiper-slide:nth-child(2) {
+    background: url('@/assets/images/creat2.png') center center/cover no-repeat;
+}.coverSwiper .swiper-slide:nth-child(3) {
+    background: url('@/assets/images/creat3.png') center center/cover no-repeat;
+}.coverSwiper .swiper-slide:nth-child(4) {
+    background: url('@/assets/images/creat4.png') center center/cover no-repeat;
+}.coverSwiper .swiper-slide:nth-child(5) {
+    background: url('@/assets/images/creat5.png') center center/cover no-repeat;
+}.coverSwiper .swiper-slide:nth-child(6) {
+    background: url('@/assets/images/creat6.png') center center/cover no-repeat;
 }
 
 .swiper-slide img {

@@ -1,6 +1,11 @@
 @import "@/assets/css/reset.scss";
 
 .section {background: var(--bg); height: 100%;}
+h3 {
+    padding-bottom: 3%;
+    color: var(--text);
+    font-size: 3rem;
+}
 .main_inner {
     padding: 120px 30px;
     align-items: center;
@@ -45,6 +50,9 @@
 }
 
 @media (max-width: $mobile) {
+    h3 {
+        font-size: 2rem;
+    }
     .main_inner {
         .news {
             width: 100%;

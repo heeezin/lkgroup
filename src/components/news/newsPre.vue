@@ -2,6 +2,7 @@
     <Header/>
     <div class="section">
         <div class="main_inner">
+            <h3>NEWS</h3>
             <div class="news">
                 <div class="newsImg">
                     <img src="http://me-flex.co.kr/img/news/0001.png" alt="">

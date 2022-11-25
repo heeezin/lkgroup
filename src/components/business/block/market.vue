@@ -7,7 +7,7 @@
                     <div class="icon">
                         <img src="@/assets/images/marketIcon.png" alt="">
                     </div>
-                    <p>소더비 NFT 마켓플레이스 X 아티스트 & 브랜드가 만나<br>콜라보 NFT 판매</p>
+                    <p>소더비 NFT 마켓플레이스 X 아티스트 & 브랜드가<br>만나콜라보 NFT 판매</p>
                 </div>
                 <div class="nftRight">
                     <div class="nftImg">
@@ -74,7 +74,7 @@ p {
                     font-weight: 500;
                 }
                 span {
-                    font-size: 1.8rem;
+                    font-size: 1.4rem;
                     font-weight: 700;
                 }
                 .main_btn {
@@ -86,12 +86,25 @@ p {
     }
 }
 @media (max-width: $tablet) {
+    p {
+        font-weight: 400;
+        text-align: center;
+    }
     .market {
+        p {
+            color: var(--bg);
+        }
         background: url('@/assets/images/marketBgM.png') center center /cover no-repeat;
         .secInner {
+            width: 100%;
             .nftRight {
                 width: 100%;
                 .nftTxt {
+                    position: absolute;
+                    bottom: 0;
+                    background: #CECECE;
+                    color: var(--bg);
+                    p {padding: 3%;}
                     .main_btn {
                     width: 86%;
                     font-size: 1.3rem;
@@ -104,8 +117,8 @@ p {
 @media (max-width: $Smobile) {
     .market {
         p {
-            font-size: 1.2rem;
-            color: var(--text);
+            font-size: 1rem;
+            color: var(--bg);
         }
         .secInner {
             .nftImg {
@@ -116,8 +129,9 @@ p {
             }
             .nftRight {
                 .nftImg {
+                    padding: 10% 0;
                     img {
-                        width: 133px;
+                        width: 40%;
                     }
                 }
             }

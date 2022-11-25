@@ -36,9 +36,9 @@
             }
         }
     }
-    background: url('@/assets/images/intro.png') center center /cover no-repeat;
     color: var(--text);
     .secInner {
+        position: absolute;
         padding-top: 20%;
         display: flex;
         justify-content: space-around;
@@ -112,6 +112,10 @@
     .section {
         .colorBg {
             .secInner {
+                .introLeft {
+                    height: 50vh;
+                    padding-bottom: 0;
+                }
                 span {
                     font-size: 1.3rem;
                     font-weight: 700;
@@ -120,11 +124,10 @@
                     font-size: 1.8rem;
                 }
                 p {
-                    font-size: 1.2rem;
+                    font-size: 1.1rem;
                     padding-top: 3%;
                 }
                 .introLeft {
-                    padding-bottom: 33%;
                     width: 100%;
                 }
                 

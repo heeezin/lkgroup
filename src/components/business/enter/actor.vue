@@ -12,7 +12,7 @@
                 data-sal="slide-up"
                 data-sal-delay="700"    
             >
-                <a href="/">MELFEX ENT 바로가기</a>
+                <a href="http://meflexent.co.kr/" target="_blank">MELFEX ENT 바로가기</a>
             </div>
         </div>
 </template>

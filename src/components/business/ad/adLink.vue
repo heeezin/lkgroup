@@ -40,7 +40,7 @@ export default {
 @import "@/assets/css/ad.scss";
 
 .section {
-    background: url('@/assets/images/intro.png') center center /cover no-repeat;
+    background: url('@/assets/images/adBg4.png') center center /cover no-repeat;
     .main_btn {
                     width: 300px;
                     font-size: 1.3rem;

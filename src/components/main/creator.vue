@@ -6,7 +6,14 @@
                     <h3>CREATOR</h3>
                 </div>
                 <cover-slide/>
-                <more-btn/>
+                <div class="btnWrap">
+                    <div class="main_btn"
+                        data-sal="slide-up"
+                        data-sal-delay="700"    
+                    >
+                        <a href="/">자세히 보기</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -28,8 +35,8 @@ export default {
 .creator_inner {
 }
 .sec_tit {
-    padding: 5vw 5vw 1vw;
-    z-index: -1;
+    z-index: 100;
+    position: absolute;
     h3 {
         font-size: 2.2rem;
         color: var(--text);
@@ -37,7 +44,7 @@ export default {
 }
 .main_btn {
     position: absolute;
-    bottom: 4%;
-    left: 27%;
+    z-index: 100;
+    bottom: 0;
 }
 </style>

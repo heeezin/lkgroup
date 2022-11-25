@@ -2,6 +2,7 @@
     <Header/>
     <div class="contact">
         <div class="cont_inner">
+            <h3>MAP</h3>
             <map-api/>
             <div class="address">
                 <span>오시는길</span>
@@ -32,7 +33,7 @@
                         </div>
                         <div class="mail_submit">
                             <button 
-                                class="submit" type="button" onclick="location.href = 'mailto:gmlwls0425107@gmail.com' "
+                                class="submit" type="button" onclick="location.href = 'mailto:lk@lkgroup.co.kr' "
                             >
                                 SUBMIT
                             </button>
@@ -56,7 +57,11 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/assets/css/reset.scss";
-
+h3 {
+    padding-bottom: 3%;
+    color: var(--text);
+    font-size: 3rem;
+}
 .contact {
     background: var(--bg);
     color: var(--text);
@@ -81,9 +86,7 @@ export default {
                 }
             }
             h3 {
-            color: var(--text);
-            font-size: 3rem;
-            text-align: center;
+            
             }
             .mail_form {
                 input {
@@ -127,6 +130,34 @@ export default {
     }
 }
 @media (max-width: $mobile) {
+    h3 {
+        font-size: 2rem;
+    }
     .contact .cont_inner .contForm .mail_form input{width: 40vw;}
+    .contact {
+        .cont_inner {
+            .address {
+                span {
+                    font-size: 1.2rem;
+                }
+                address {
+                    font-size: 0.9rem;
+                }
+            }
+            .contForm {
+                form {
+                    display: block;
+                }
+                .mail_submit {
+                    margin: 0;
+                    width: 180px;
+                    .submit {
+                        font-size: 1.1rem;
+                        padding: 5%;
+                    }
+                }
+            }
+        }
+    }
 }
 </style>

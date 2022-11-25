@@ -51,7 +51,6 @@ export default {
     .main_btn {
         width: 180px;
         font-size: 1.3rem;
-        position: absolute;
         bottom: 4%;
         left: 27%;
     }

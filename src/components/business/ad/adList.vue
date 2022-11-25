@@ -27,6 +27,11 @@ export default {
 @import "@/assets/css/ad.scss";
 
 .section {
-    background: url('@/assets/images/intro.png') center center /cover no-repeat;
+    background: url('@/assets/images/adBg4.png') center center/cover no-repeat;
+}
+@media (max-width: 768px){
+    .section {
+        background: url('@/assets/images/adBg.png') center center/cover no-repeat;
+    }
 }
 </style>

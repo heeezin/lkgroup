@@ -76,8 +76,8 @@ export default {
                 img {
                     left: 0;
                     top: 28%;
-                    width: 300px;
-                    height: 350px;
+                    width: 100%;
+                    height: 100%;
                 }
 
             }

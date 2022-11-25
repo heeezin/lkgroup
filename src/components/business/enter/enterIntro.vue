@@ -4,7 +4,7 @@
             <div class="enterTit">
                 <span>MEFLEX ENTERTAINMENT</span>
                 <div class="enterImg">
-                    <img src="" alt="">
+                    <img src="@/assets/images/enterlogo.png" alt="">
                 </div>
             </div>
             <div class="enterTxt">

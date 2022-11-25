@@ -50,6 +50,9 @@
 p {
     font-size: 1.2rem;
 }
+.section {
+    height: 190vh !important;
+}
 .nftSec {
     background: url('@/assets/images/block1.png') center center/cover no-repeat;
     .nftTxt {

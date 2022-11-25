@@ -5,7 +5,7 @@
                 <img src="@/assets/images/inc_logo.jpg" alt="">
             </div>
             <div class="main_tit">
-                <h4>LKPARTNERS LOGO</h4>
+                <span>LKPARTNERS LOGO</span>
                 <p> LKPARTNERSINC는"LEADINGOFKOREA"라는의미로글로벌리더로부상하고있는한국산업에새로운패러다임을제시하고자작명되었습니다.</p>
                 <br>
                 <span>1 COLOR</span>

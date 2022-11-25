@@ -16,12 +16,12 @@
             </div>
             <div class="enterTxt">
                 <div class="enterImg">
-                    <img src="@/assets/images/SOTHEBYS_BG2.png" alt="">
-                    <img src="@/assets/images/SOTHEBYS_BG2.png" alt="">
+                    <img src="@/assets/images/enter1.jpg" alt="">
+                    <img src="@/assets/images/enter2.jpg" alt="">
                 </div>
                 <div class="enterImg">
-                    <img src="@/assets/images/SOTHEBYS_BG2.png" alt="">
-                    <img src="@/assets/images/SOTHEBYS_BG2.png" alt="">
+                    <img src="@/assets/images/enter3.jpg" alt="">
+                    <img src="@/assets/images/enter4.jpg" alt="">
                 </div>
             </div>
         </div>
