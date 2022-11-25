@@ -37,13 +37,15 @@ export default {
     },
     methods: {
   // Called when your components are ready. That is up to you to decide when.
-  componentsReady() {
-    this.$refs.fullpage.init()
-  }
+
 }
 
 }
 </script>
 <style lang="scss" scoped>
 @import '@/assets/css/about.scss';
+
+.fp-watermark {
+    display: none !important;
+}
 </style>

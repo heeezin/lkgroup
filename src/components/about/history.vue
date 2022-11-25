@@ -1,10 +1,9 @@
 <template>
     <Header/>
     <full-page ref="fullpage" :options="options" id="fullpage">
-    
-    <div class="section">
-        <Nav-slide/>
-    </div>
+        <div class="section">
+            <Nav-slide/>
+        </div>
     </full-page>
 </template>
 <script>
@@ -20,4 +19,7 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/css/reset.scss";
 @import '@/assets/css/about.scss';
+.fp-watermark {
+    display: none !important;
+}
 </style>

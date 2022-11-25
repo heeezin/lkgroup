@@ -6,7 +6,6 @@ import VueGoogleMaps from '@fawmi/vue-google-maps'
 import router from './router/index.js'
 import sal from "sal.js"
 import "sal.js/dist/sal.css"
-import 'vue-fullpage.js/dist/style.css'
 import VueFullPage from 'vue-fullpage.js'
 
 const app = createApp(App);
@@ -20,3 +19,4 @@ app.use(VueGoogleMaps, {
 
 sal.init()
 
+// 

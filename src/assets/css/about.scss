@@ -79,27 +79,34 @@ p {
             padding: 120px 30px;
             .main_logo {
                 img {
-                    width: 335px;
+                    width: 75%;
                 }
             }
         }
     }
     p {
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
 }
 @media (max-width: $Smobile) {
-    h3 {font-size: 1.8rem;}
+    h3 {font-size: 1.5rem;}
     p { 
-        font-size: 1.1rem;
+        font-size: 0.9rem;
+        padding-top: 6%;
     }
     .section {
         height: 100%;
         .main_inner {
             padding: 120px 30px;
+            .main_tit {
+                padding-top: 4%;
+                p {
+                    padding-top: 4%;
+                }
+            }
             .main_logo {
                 img {
-                    width: 225px;
+                    width: 66%;
                 }
             }
         }
