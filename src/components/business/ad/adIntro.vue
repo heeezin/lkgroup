@@ -2,9 +2,7 @@
     <div class="section">
         <div class="colorBg">
             <div class="adBgWrap">
-                <div class="adBg1"></div>
-                <div class="adBg2"></div>
-                <div class="adBg3"></div>
+                <div class="adBg"></div>
             </div>
             <div class="secInner">
                 <div class="introLeft">
@@ -39,6 +37,12 @@ export default {
 @import "@/assets/css/ad.scss";
 
 .section {
-    background: url('@/assets/images/intro.png') center center /cover no-repeat;
+    background: var(--bg);
+    .adBgWrap{
+                    .adBg {
+                background: url('@/assets/images/Group 19.png')  center center /cover no-repeat;
+                    }
+                }
 }
+
 </style>

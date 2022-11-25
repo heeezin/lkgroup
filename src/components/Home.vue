@@ -1,12 +1,12 @@
 <template>
     <Header :scrollDirection="scrollDirection"/>
-    <main-video/>
-    <intro/>
-    <shop/>
-    <enter/>
-    <ad/>
-    <creator/>
-    <news/>
+        <main-video/>
+        <intro/>
+        <shop/>
+        <enter/>
+        <ad/>
+        <creator/>
+        <news/>
 </template>
   
 <script type="module">
@@ -34,7 +34,12 @@
     
         },
         data: () => ({ 
-        })
+        }),
+        methods: {
+            componentsReady() {
+                this.$refs.fullpage.init()
+            }
+        }
         
     }
     </script>

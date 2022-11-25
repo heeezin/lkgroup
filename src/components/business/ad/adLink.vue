@@ -1,6 +1,9 @@
 <template>
     <div class="section">
         <div class="colorBg">
+            <div class="adBgWrap">
+                <div class="adBg"></div>
+            </div>
             <div class="secInner">
                 <div class="introLeft">
                     <span>AD/MARKETING</span>
@@ -40,10 +43,16 @@ export default {
 @import "@/assets/css/ad.scss";
 
 .section {
-    background: url('@/assets/images/adBg4.png') center center /cover no-repeat;
+    background: var(--bg);
     .main_btn {
-                    width: 300px;
+                    width: 80%;
                     font-size: 1.3rem;
                 }
+                .adBgWrap{
+                    .adBg {
+                background: url('@/assets/images/Group 18.png')  center center /cover no-repeat;
+                    }
+                }
+                
 }
 </style>

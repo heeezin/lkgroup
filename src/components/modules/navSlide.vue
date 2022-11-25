@@ -4,7 +4,6 @@
         :autoplay="{
         disableOnInteraction: false,
         }"
-        :loop="true"
         :navigation="true"
         :mousewheel="true"
         :modules="modules"

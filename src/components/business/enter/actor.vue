@@ -8,11 +8,13 @@
                     <img :src="item.img" />
                 </div>
             </div>
-            <div class="main_btn"
-                data-sal="slide-up"
-                data-sal-delay="700"    
-            >
-                <a href="http://meflexent.co.kr/" target="_blank">MELFEX ENT 바로가기</a>
+            <div class="btnWrap">
+                <div class="main_btn"
+                    data-sal="slide-up"
+                    data-sal-delay="700"    
+                >
+                    <a href="http://meflexent.co.kr/" target="_blank">MELFEX ENT 바로가기</a>
+                </div>
             </div>
         </div>
 </template>
@@ -79,7 +81,7 @@ export default {
 
 .section {
     .secInner {
-        padding: 120px 30px;
+        padding: 120px 30px 30px;
         overflow: hidden;
         display: block;
     }

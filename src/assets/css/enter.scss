@@ -52,10 +52,14 @@
         
     }
 }
-.main_btn {
-    width: 330px;
-    margin: auto;
+.btnWrap {
+    padding-bottom: 10%;
+    .main_btn {
+        width: 70%;
+        margin: auto;
+    }
 }
+
 @media (max-width: $tablet) {
     .section {
         height: 100%;
@@ -85,6 +89,7 @@
 @media (max-width: $mobile) {
 .section {
     .secInner {
+        padding: 120px 30px 30px;
         .enterImg {
             img {
                 height: 30vh;
