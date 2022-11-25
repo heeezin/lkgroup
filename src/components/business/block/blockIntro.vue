@@ -1,5 +1,6 @@
 <template>
     <Header/>
+    <full-page ref="fullpage" :options="options" id="fullpage">
     <div class="section introSec">
         <div class="colorBg">
             <div class="secInner">
@@ -32,6 +33,7 @@
     </div>
     <nft/>
     <market/>
+    </full-page>
 </template>
 <script>
 import Header from '@/components/Header.vue'
@@ -72,12 +74,18 @@ p {
         background: url('@/assets/images/nftM1.png') center center /cover no-repeat;
         .secInner {
             padding-top: 33%;
+            h3 {
+            font-size: 1.7rem;
         }
+        }
+    }
+    p {
+        font-size: 1rem;
     }
 }
 @media (max-width: $Smobile) {
     p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 </style>

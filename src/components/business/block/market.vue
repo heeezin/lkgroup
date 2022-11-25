@@ -43,7 +43,7 @@ export default {
 @import "@/assets/css/block.scss";
 
 p {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 .market {
     background: url('@/assets/images/marketBg.png') center center/cover no-repeat;
@@ -65,7 +65,7 @@ p {
                 display: flex;
                 justify-content: center;
                 img {
-                    width: 39%;
+                    width: 35%;
                 }
             }
             .nftTxt {
@@ -106,7 +106,7 @@ p {
                     color: var(--bg);
                     p {padding: 3%;}
                     .main_btn {
-                    width: 86%;
+                    width: 79%;
                     font-size: 1.3rem;
                 }
                 }
@@ -114,12 +114,18 @@ p {
         }
     }
 }
+@media (max-width: $mobile) {
+    p {
+        font-size: 0.7rem;
+    }
+}
 @media (max-width: $Smobile) {
-    .market {
-        p {
-            font-size: 1rem;
+    p {
+            font-size: 0.8rem;
             color: var(--bg);
         }
+    .market {
+        
         .secInner {
             .nftImg {
         

@@ -51,7 +51,6 @@ p {
     font-size: 1.2rem;
 }
 .section {
-    height: 190vh !important;
 }
 .nftSec {
     background: url('@/assets/images/block1.png') center center/cover no-repeat;
@@ -66,10 +65,11 @@ p {
 }
 @media (max-width: $mobile) {
     p {
-        font-size: 1.7rem;
+        font-size: 0.7rem;
+        text-align: center;
     }
 }
 @media (max-width: $Smobile) {
-    p {font-size: 1.2rem;}
+    p {font-size: 0.7rem;}
 }
 </style>
