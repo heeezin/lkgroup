@@ -1,8 +1,10 @@
 <template>
     <Header/>
-    <ad-intro/>
-    <ad-list/>
-    <ad-link/>
+    <full-page ref="fullpage" :options="options" id="fullpage">
+        <ad-intro/>
+        <ad-list/>
+        <ad-link/>
+    </full-page>
 </template>
 <script>
 import Header from '@/components/Header.vue'

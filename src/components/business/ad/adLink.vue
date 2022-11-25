@@ -17,12 +17,14 @@
                     <p>
                         - 로고 디자인 - 제품 패키지 디자인 - 광고 영상 기획 및 제작 - 온라인 광고 집행
                     </p>
-                    <div class="main_btn"
-                        data-sal="slide-up"
-                        data-sal-delay="700"    
-                    >
-                        <a href="/">종로부띠끄 바로가기</a>
-                        </div>
+                    <div class="btnWrap">
+                        <div class="main_btn"
+                            data-sal="slide-up"
+                            data-sal-delay="700"    
+                        >
+                            <a href="/">종로부띠끄 바로가기</a>
+                            </div>
+                    </div>
                 </div>
 
             </div> 
@@ -52,6 +54,9 @@ export default {
                     .adBg {
                 background: url('@/assets/images/Group 18.png')  center center /cover no-repeat;
                     }
+                }
+                .btnWrap {
+                    padding-top: 30%;
                 }
                 
 }
