@@ -1,8 +1,10 @@
 <template>
     <Header/>
-    <enter-intro/>
-    <enter-intro-2/>
-    <actor/>
+    <full-page ref="fullpage" :options="options" id="fullpage">
+        <enter-intro/>
+        <enter-intro-2/>
+        <actor/>
+    </full-page>
 </template>
 <script>
 import Header from '@/components/Header.vue'

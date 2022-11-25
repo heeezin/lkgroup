@@ -11,7 +11,7 @@
             .enterImg {
                 width: 100%;
                 img {
-                    width: 100%;
+                    width: 86%;
                 }
             }
             span {
@@ -27,11 +27,11 @@
         }
         .enterTxt {
             width: 40%;
-            p {font-size: 1.5rem;}
+            p {font-size: 1rem;}
         }
         .enterImg {
             img {
-                width: 47%;
+                width: 86%;
                 height: 400px;
                 &:nth-child(odd) {
                     margin-right: 3%;
@@ -42,11 +42,11 @@
             float: left;
             background: green;
             width: 13%;
-            height: 200px;
+            height: 13vh;
             margin-right: 1%;
             margin-bottom: 1%;
             img {
-                width: 300px;
+                width: 25%;
             }
         }
         
@@ -71,6 +71,9 @@
             }
             .enterTit {
                 width: 100%;
+                p {
+                    font-size: 1rem;
+                }
                 img {
                     text-align: center;
                 }
@@ -78,6 +81,9 @@
             .enterTxt {
                 width: 100%;
                 margin-top: 10%;
+                p {
+                    font-size: 1rem;
+                }
             }
             .enterImg {
                 text-align: center;
@@ -92,7 +98,13 @@
         padding: 120px 30px 30px;
         .enterImg {
             img {
-                height: 30vh;
+                height: 34vh;
+                width: 24%;
+            }
+        }
+        .enterTit {
+            span {
+                font-size: 1.3rem;
             }
         }
     }
@@ -105,7 +117,7 @@
     .section {
         .secInner {
             .enterActor {
-                width: 49%;
+                width: 24%;
             }
             .enterTit {
                 span {
@@ -113,13 +125,13 @@
                     font-weight: 700;
                 }
                 p {
-                    font-size: 1.1rem;
+                    font-size: 0.9rem;
                 }
                 
             }
             .enterTxt {
                 p {
-                    font-size: 1.1rem;
+                    font-size: 0.9rem;
                 }
             }
         }

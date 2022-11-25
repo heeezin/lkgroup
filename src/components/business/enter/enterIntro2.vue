@@ -36,6 +36,12 @@
 .section {
     .secInner {
         align-items: flex-start;
+        .enterImg {
+            img {
+                width: 41%;
+                height: 24vh;
+            }
+        }
     }
 }
 </style>
