@@ -1,8 +1,11 @@
 <template>
     <Header/>
+    <full-page ref="fullpage" :options="options" id="fullpage">
+    
     <div class="section">
         <Nav-slide/>
     </div>
+    </full-page>
 </template>
 <script>
 import Header from '../Header.vue'

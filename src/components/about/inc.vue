@@ -1,5 +1,6 @@
 <template>
     <Header/>
+    <full-page ref="fullpage" :options="options" id="fullpage">
     <div class="section">
         <div class="main_inner">
             <video controls autoplay loop muted id="player">
@@ -24,6 +25,7 @@
         </div>
     </div>
     <logo/>
+    </full-page>
 </template>
 <script>
 import Header from '../Header.vue'
@@ -33,6 +35,12 @@ export default {
         Header,
         Logo
     },
+    methods: {
+  // Called when your components are ready. That is up to you to decide when.
+  componentsReady() {
+    this.$refs.fullpage.init()
+  }
+}
 
 }
 </script>

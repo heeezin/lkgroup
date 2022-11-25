@@ -1,28 +1,28 @@
 <template>
-    <div class="section">
-        <div class="imageColor"></div>
-        <div class="enter main">
-            <div class="enter_inner main_inner">
-                <div class="main_tit"
-                    data-sal="slide-up"
-                    data-sal-delay="500"
-                >
-                    <h3>종합 엔터테인먼트 ‘MEFLEX ENT’</h3>
-                </div> 
-                <div class="main_txt"
-                    data-sal="slide-up"
-                    data-sal-delay="600"
-                >
-                    <p>
-                        배우 매니지먼트, 아이돌 트레이닝,
-                        크리에이터 협업 및 에이전시 등
-                        종합 엔터테인먼트 운영
-                    </p>
+        <div class="section">
+            <div class="imageColor"></div>
+            <div class="enter main">
+                <div class="enter_inner main_inner">
+                    <div class="main_tit"
+                        data-sal="slide-up"
+                        data-sal-delay="500"
+                    >
+                        <h3>종합 엔터테인먼트 ‘MEFLEX ENT’</h3>
+                    </div> 
+                    <div class="main_txt"
+                        data-sal="slide-up"
+                        data-sal-delay="600"
+                    >
+                        <p>
+                            배우 매니지먼트, 아이돌 트레이닝,
+                            크리에이터 협업 및 에이전시 등
+                            종합 엔터테인먼트 운영
+                        </p>
+                    </div>
+                    <more-btn/>
                 </div>
-                <more-btn/>
             </div>
         </div>
-    </div>
 </template>
 <script>
 import sal from "sal.js";
