@@ -66,11 +66,26 @@ export default {
     }
 }
 @media (max-width: $mobile) {
+    p {text-align: center;}
     .main {
         .main_inner {
             text-align: center;
             width: 100%;
             padding-top: 138%;
+        }
+    }
+}
+@media screen and (min-width: $Smobile) and (max-width: $mobile) {
+    .main {
+        .main_inner {
+            padding-top: 65vw;
+        }
+    }
+}
+@media (max-width: $Smobile) {
+    .main {
+        .main_inner {
+            padding-top: 140%;
         }
     }
 }

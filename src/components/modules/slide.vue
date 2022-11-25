@@ -1,7 +1,7 @@
 <template>
     <swiper
         :spaceBetween="30"
-        :slides-per-view="1.2"
+        :slides-per-view="3"
         :autoplay="{
         disableOnInteraction: false,
         }"
@@ -37,7 +37,7 @@ export default {
   },
 }
 </script>
-<style>
+<style lang="scss" scoped>
 .mySwiper {
     width: 100%;
     height: 30vh;
@@ -69,5 +69,10 @@ export default {
     display: block;
     height: 50%;
     object-fit: cover;
+}
+@media (max-width: 400px) {
+    .swiper-slide {
+        width: 300px !important;
+    }
 }
 </style>

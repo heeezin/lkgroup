@@ -1,6 +1,9 @@
 @import './reset.scss';
 
-h3 {font-size: 2.5rem;}
+h3 {
+  font-size: 2.5rem;
+  color: var(--text);
+}
 p {font-size: 1.5rem;}
 * {
   font-family: 'Montserrat', sans-serif;
@@ -32,13 +35,13 @@ p {font-size: 1.5rem;}
   }
 .main {
     .main_inner {
-      width: 90%;
+        width: 1200px;
+        margin: 0 auto;
         font-family: 'Montserrat', sans-serif;
         font-size: 2rem;
         color: #fff;
-        padding: 100% 4% 0;
+        padding: 20% 4% 0;
         .main_tit{
-          width: 90%;
         }
         .main_txt{
             padding: 1vw 0;
@@ -64,11 +67,25 @@ p {font-size: 1.5rem;}
 @media (max-width: $tablet) {
   .main {
     .main_inner {
+      padding: 80% 4% 0;
     }
   }
 }
 @media (max-width: $mobile){
-  p {font-size: 1.5rem;}
+  
+  .main {
+    .main_inner {
+        padding: 77% 4% 0;
+        width: 90%;
+        .main_tit {
+          padding-bottom: 5%;
+        }
+    }
+  }
+  p {
+    font-size: 1.5rem;
+    text-align: left;
+  }
   .main_btn {
     margin: 5vw auto;
     width: 200px;
@@ -76,12 +93,26 @@ p {font-size: 1.5rem;}
       padding: 2vw;
     }
   }
+  .sec_tit {
+    padding: 5%;
+  }
 }
 @media (max-width: $Smobile){
-  p {font-size: 1.3rem;}
-  h3 {font-size: 1.7rem;}
+  .main {
+    .main_inner {
+        padding: 110% 4% 0;
+    }
+  }
+  p {font-size: 1.2rem;}
+  h3 {font-size: 1.5rem;}
   .main_btn {
     width: 180px;
     font-size: 1.3rem;
+  }
+  .sec_tit {
+
+    h3 {
+    font-size: 2.2rem;
+    }
   }
 }

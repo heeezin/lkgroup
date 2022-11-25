@@ -33,7 +33,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "../../assets/css/main.scss";
-
+    
     .news {
         width: 100%;
         height: 60vh;

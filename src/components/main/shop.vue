@@ -28,8 +28,15 @@
                     </div>
                 </div>
             </div>
+            <div class="btnWrap">
+            <div class="main_btn"
+                data-sal="slide-up"
+                data-sal-delay="700"    
+            >
+                <a href="/">자세히 보기</a>
+            </div>
+    </div>
         </div>
-        <more-btn/>
     </div>
 </template>
 <script>
@@ -115,16 +122,16 @@ export default {
     .imageColor {
     }
     .shopImgBack {
-        width: 84%;
-        height: 300px;
+        width: 68vw;
+        height: 68vw;
         border-radius: 50%;
-        left: 7%;
+        left: 17%;
         .shopImg {
             display: block;
             width: 100%;
             img {
                 width: 100%;
-                height: 35vh;
+                height: 100%;
             }
         }
     }
@@ -136,21 +143,33 @@ export default {
         .main_inner {
             width: 100%;
             text-align: end;
-            padding: 126% 4% 0;
             .main_tit{
-          width: 100%;
-        }
+                width: 100%;
+            }
+            .main_txt {
+                p {text-align: right;}
+            }
 
         }
+    }
+    .btnWrap {
+        padding-top: 45%;
     }
 }
 @media (max-width: $Smobile){
     .main {
         .main_inner {
+            padding-top: 140%;
             .main_txt {
                 p {font-size: 1.3rem;}
             }
+            .main_txt {
+                p {font-size: 1.2rem;}
+            }
         }
+    }
+    .btnWrap {
+        padding-top: 81%;
     }
 }
 </style>

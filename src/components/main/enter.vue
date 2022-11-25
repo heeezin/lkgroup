@@ -85,8 +85,20 @@ h3 {padding-bottom: 7%;}
 @media (max-width: $mobile) {
     .main {
         .main_inner {
-            width: 100%;
-            padding: 100% 4% 0;
+            width: 90%;
+            padding: 80% 4% 0;
+        }
+    }
+}
+@media (max-width: $Smobile) {
+    h3 {
+        padding-bottom: 3%;
+        font-size: 1.3rem;
+    }
+    .main {
+        .main_inner {
+            width: 90%;
+            padding: 130% 4% 0;
         }
     }
 }
