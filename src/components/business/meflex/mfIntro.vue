@@ -1,5 +1,6 @@
 <template>
     <Header/>
+    <full-page ref="fullpage" :options="options" id="fullpage">
     <div class="section">
         <div class="secInner">
             <div class="introImg">
@@ -29,6 +30,7 @@
     <mf-about/>
     <mf-about-2/>
     <mf-about-3/>
+    </full-page>
 </template>
 <script>
 import Header from '@/components/Header.vue'

@@ -31,7 +31,7 @@ export default {
         .introImg {
             .Title {
                 p {
-                    font-size: 1.3rem;
+                    font-size: 1rem;
                 }
             }
             .backImg {
@@ -78,21 +78,30 @@ export default {
                 }
 
             }
+            
         }
         }
     }
 }
 @media (max-width: $mobile) {
+    .Title {
+                p {
+                    font-size: 1rem;
+                }
+            }
     .section {
         .secInner {
             .introImg {
                 .backImg {
                     img {
-                        width: 400px;
-                        height: 400px;
-                        left: 0;
+                        width: 80%;
+                        height: 35%;
+                        left: -8%;
+                        top: 31%;
                         &:last-child {
-                            left: 22%;
+                            left: 11%;
+                            top: 32%;
+                            z-index: 100;
                         }
                     }
                 }
@@ -104,15 +113,23 @@ export default {
     .section {
         .secInner{
             padding: 120px 30px;
+            .Title {
+                p {
+                    font-size: 1rem;
+                }
+            }
+            .introTxt {
+                width: 85%;
+            }
             .introImg {
             .backImg {
-                width: 330px;
-                height: 330px;
+                width: 80%;
+                height: 30vh;
                 img {
                     left: 0;
-                    top: 28%;
-                    width: 320px;
-                    height: 316px;
+                    top: 31%;
+                    width: 80%;
+                    height: 33%;
                 }
 
             }

@@ -87,25 +87,40 @@ export default {
         .secInner {
             .introImg {
                 .backImg {
-                    padding-top: 10%;
                     img {
-                        width: 350px;
-                        height: 300px;
+                        width: 60vw;
+                        height: 24vh;
                     }
                 }
+                .Title {
+                p {
+                    font-size: 1rem;
+                }
+            }
+            }
+            .introTxt {
+                width: 80%;
+                h4 {font-size: 1.2rem;}
+
             }
         }
     }
 }
 @media (max-width: $Smobile) {
+    
     .section {
         .secInner{
             padding: 120px 30px;
+            .Title {
+                p{
+                    font-size: 1rem;
+                }
+            }
             .introImg {
             .backImg {
                 img {
-                    width: 270px;
-                    height: 258px;
+                    width: 60vw;
+                    height: 24vh;
                 }
 
             }
