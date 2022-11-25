@@ -1,4 +1,5 @@
 <template>
+
     <div class="section">
         <div class="news">
             <div class="news_inner">

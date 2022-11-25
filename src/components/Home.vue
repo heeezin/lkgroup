@@ -1,5 +1,6 @@
 <template>
     <Header :scrollDirection="scrollDirection"/>
+    <full-page ref="fullpage" :options="options" id="fullpage">
         <main-video/>
         <intro/>
         <shop/>
@@ -7,6 +8,7 @@
         <ad/>
         <creator/>
         <news/>
+    </full-page>
 </template>
   
 <script type="module">
@@ -36,9 +38,6 @@
         data: () => ({ 
         }),
         methods: {
-            componentsReady() {
-                this.$refs.fullpage.init()
-            }
         }
         
     }

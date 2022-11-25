@@ -1,4 +1,5 @@
 <template>
+
         <div class="section">
             <div class="imageColor"></div>
             <div class="enter main">
