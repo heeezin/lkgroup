@@ -88,8 +88,8 @@ export default {
             .introImg {
                 .backImg {
                     img {
-                        width: 60vw;
-                        height: 24vh;
+                        width: 89%;
+                        height: 40vh;
                     }
                 }
                 .Title {

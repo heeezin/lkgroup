@@ -177,8 +177,8 @@ span, p {
 }
 
 @media (max-width: $mobile) {
-    span { font-size: 2.2rem;}
-    p { font-size: 3rem;}
+    span { font-size: 1.7rem;}
+    p { font-size: 1.9rem;}
     .swiper-slide:nth-child(1) {
     background: url('../../assets/images/m_history_01.jpg') center center no-repeat;
 }

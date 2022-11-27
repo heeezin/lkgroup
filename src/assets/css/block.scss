@@ -38,7 +38,7 @@ span {
         
         img { 
             width: 45vw;
-            height: 16vw;
+            height: 40vh;
             &:last-child {
             }
         }
@@ -176,7 +176,9 @@ span {
                 }
                 .txtWrap {
                     .txtBox {
-
+                        p {
+                            font-size: 0.8rem;
+                        }
                         span {
                             font-size: 1.3rem;
                         }
@@ -195,4 +197,16 @@ span {
     span {
         font-size: 1.3rem;
     }
+    .section {
+        .secInner {
+            .nftTxt {
+                .txtWrap {
+                    .txtBox {
+                        padding: 3%;
+                    }
+                }
+            }
+        }
+    }
 }
+p

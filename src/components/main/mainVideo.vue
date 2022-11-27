@@ -1,6 +1,6 @@
 <template>
 
-    <div class="section" key="down" v-if="showHeader">
+    <div class="section" v-if="showHeader">
       <video controls autoplay loop muted id="player">
           <source src="http://lkpartnersinc.co.kr/img/video/mefelx_video01.mp4">
       </video>

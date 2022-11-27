@@ -65,6 +65,7 @@ h3 {
 .contact {
     background: var(--bg);
     color: var(--text);
+    width: 100%;
     
     .cont_inner {
         padding: 80px 30px;
@@ -135,7 +136,9 @@ h3 {
     }
     .contact .cont_inner .contForm .mail_form input{width: 40vw;}
     .contact {
+        height: 100%;
         .cont_inner {
+            display: block;
             .address {
                 span {
                     font-size: 1.2rem;

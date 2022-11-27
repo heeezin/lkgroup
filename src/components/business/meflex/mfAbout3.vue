@@ -77,7 +77,24 @@ export default {
                     left: 0;
                     top: 28%;
                     width: 100%;
-                    height: 33vh;
+                    height: 100%;
+                }
+
+            }
+        }
+        }
+    }
+}
+@media (max-width: $Smobile) {
+    .section {
+        .secInner{
+            .introImg {
+            .backImg {
+                width: 70%;
+                height: 70%;
+                img {
+                    width: 100%;
+                    height: 100%;
                 }
 
             }

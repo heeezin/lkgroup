@@ -47,7 +47,7 @@
                 padding: 4% 0 2%;
                 a{
                     display: inline-block;
-                    padding-right: 2%;
+                    padding-right: 1%;
                     img{
                     }
                 }
@@ -69,16 +69,21 @@
             padding: 5%;
             justify-content: center;
             h4 {
-                font-size: 2.3rem;
+                font-size: 2.1rem;
             }
             .foot_info {
                 padding: 0;
+                .sns {
+                    a {
+                        padding-right: 3%;
+                    }
+                }
                 .info {
                     span {
                         display: block;
                     }
                     .copy {
-                        padding-top: 8%;
+                        padding-top: 5%;
                     }
                 }
             }
@@ -94,6 +99,11 @@
                 font-size: 2.1rem;
             }
             .foot_info {
+                .sns {
+                    a {
+                        padding-right: 1%;
+                    }
+                }
                 .info{
                     font-size: 0.8rem;
                     .copy {
