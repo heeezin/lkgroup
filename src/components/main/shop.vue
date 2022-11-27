@@ -70,8 +70,6 @@ export default {
         background: -webkit-linear-gradient(140deg, rgb(81, 25, 210), rgb(135, 20, 135));
         z-index: -2;
         position: absolute;
-        width: 550px;
-        height: 550px;
         border-radius: 50%;
         height: 50vh;
         left: 13%;
@@ -89,12 +87,11 @@ export default {
 .main {
     display: flex;
     justify-content: flex-end;
-    height: 50vw;
     .main_inner {
         font-family: 'Montserrat', sans-serif;
         font-size: 2rem;
-        width: 50%;
         color: #fff;
+        text-align: end;
         .main_tit{
         }
         .main_txt{
@@ -123,16 +120,17 @@ export default {
     .imageColor {
     }
     .shopImgBack {
-        width: 68vw;
-        height: 68vw;
+        width: 73%;
+        height: 33%;
         border-radius: 50%;
-        left: 17%;
+        left: 14%;
+        top: 13%;
         .shopImg {
             display: block;
             width: 100%;
             img {
-                width: 100%;
-                height: 100%;
+                width: 400px;
+                height: 400px;
             }
         }
     }
@@ -157,6 +155,23 @@ export default {
         padding-top: 45%;
     }
 }
+@media screen and (min-width: $Smobile) and (max-width: $mobile){
+    .section {
+        .secInner {
+            .shopImgBack {
+                width: 60%;
+                height: 40%;
+            .shopImg {
+            img {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+        }
+    }
+}
+
 @media (max-width: $Smobile){
     .main {
         .main_inner {
@@ -171,6 +186,18 @@ export default {
     }
     .btnWrap {
         padding-top: 81%;
+    }
+    .section {
+        .secInner {
+            .shopImgBack {
+            .shopImg {
+            img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+        }
     }
 }
 </style>
