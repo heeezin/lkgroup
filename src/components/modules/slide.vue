@@ -8,15 +8,12 @@
         :modules="modules"
         class="mySwiper"
         >
-        <swiper-slide>1</swiper-slide>
-        <swiper-slide>2</swiper-slide>
-        <swiper-slide> 3</swiper-slide>
-        <swiper-slide> 4</swiper-slide>
-        <swiper-slide> 5</swiper-slide>
-        <swiper-slide> 6</swiper-slide>
-        <swiper-slide> 7</swiper-slide>
-        <swiper-slide> 8</swiper-slide>
-        <swiper-slide> 9</swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
+        <swiper-slide></swiper-slide>
     </swiper>
 </template>
 <script>
@@ -48,7 +45,24 @@ export default {
     font-size: 18px;
     width: 300px;
     height: 300px;
-    background: #fff;
+    &:nth-child(1) {
+        background: url('http://me-flex.co.kr/img/news/0001.png') center center/cover no-repeat;
+    }
+    &:nth-child(2) {
+        background: url('http://me-flex.co.kr/img/news/0002.png') center center/cover no-repeat;
+    }
+    &:nth-child(3) {
+        background: url('http://me-flex.co.kr/img/news/0003.png') center center/cover no-repeat;
+    }
+    &:nth-child(4) {
+        background: url('http://me-flex.co.kr/img/news/0004.png') center center/cover no-repeat;
+    }
+    &:nth-child(5) {
+        background: url('http://me-flex.co.kr/img/news/0005.png') center center/cover no-repeat;
+    }
+    &:nth-child(6) {
+        background: url('http://me-flex.co.kr/img/news/0006.png') center center/cover no-repeat;
+    }
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -70,9 +84,9 @@ export default {
     height: 50%;
     object-fit: cover;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .swiper-slide {
-        width: 300px !important;
+        width: 400px !important;
     }
 }
 </style>

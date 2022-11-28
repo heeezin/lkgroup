@@ -20,7 +20,14 @@
                         제작 및 운영
                     </p>
                 </div>
-                <more-btn/>
+                <div class="btnWrap">
+                    <div class="main_btn"
+                        data-sal="slide-up"
+                        data-sal-delay="700"    
+                    >
+                        <router-link to="/ad/marketing">자세히 보기</router-link>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -39,7 +39,6 @@ export default {
 .page {
     padding-top: 20%;
     width: 100%;
-    height: 200px;
     display: flex;
     justify-content: center;
     .pagePre {

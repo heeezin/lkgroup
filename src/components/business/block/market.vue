@@ -21,7 +21,7 @@
                         data-sal="slide-up"
                         data-sal-delay="700"    
                     >
-                        <a href="/">MARKET PLACE 바로가기</a>
+                        <a href="http://me-flex.co.kr/">MARKET PLACE 바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@ p {
                 .nftImg {
                     padding: 10% 0;
                     img {
-                        width: 40%;
+                        width: 30%;
                     }
                 }
             }

@@ -39,7 +39,7 @@
         .enterImg {
             img {
                 width: 41%;
-                height: 24vh;
+                height: 23vh;
             }
         }
     }

@@ -1,6 +1,5 @@
 <template>
     <Header/>
-    <full-page ref="fullpage" :options="options" id="fullpage">
         <main-video/>
         <intro/>
         <shop/>
@@ -8,7 +7,6 @@
         <ad/>
         <creator/>
         <news/>
-    </full-page>
 </template>
   
 <script type="module">

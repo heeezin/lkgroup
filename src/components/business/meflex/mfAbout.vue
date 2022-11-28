@@ -106,6 +106,20 @@ export default {
         }
     }
 }
+@media screen and (min-width: $Smobile) and (max-width: $mobile) {
+    .section {
+        .secInner {
+            .introImg {
+                .backImg {
+                    img {
+                        width: 63%;
+                        height: 26vh;
+                    }
+                }
+            }
+        }
+    }   
+}
 @media (max-width: $Smobile) {
     
     .section {

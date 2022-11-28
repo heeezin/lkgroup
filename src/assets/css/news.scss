@@ -1,6 +1,6 @@
 @import "@/assets/css/reset.scss";
 
-.section {background: var(--bg); height: 100%;}
+.section {background: var(--bg); height: 100vh;}
 h3 {
     padding-bottom: 3%;
     color: var(--text);
@@ -34,6 +34,11 @@ h3 {
                 color: var(--text);
             }
         }
+    }
+}
+@media (max-width: $tablet) {
+    .section {
+        height: 100%;
     }
 }
 @media screen and (min-width: $mobile) and (max-width: $tablet) {

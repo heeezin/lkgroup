@@ -22,7 +22,7 @@
                             data-sal="slide-up"
                             data-sal-delay="700"    
                         >
-                            <a href="/">종로부띠끄 바로가기</a>
+                            <a href="https://www.jongroboutique.com/" target="_blank">종로부띠끄 바로가기</a>
                             </div>
                     </div>
                 </div>

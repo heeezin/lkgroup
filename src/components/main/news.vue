@@ -12,7 +12,7 @@
                         data-sal="slide-up"
                         data-sal-delay="700"    
                     >
-                        <a href="/">자세히 보기</a>
+                        <router-link to="/news">자세히 보기</router-link>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ export default {
 @media (max-width: $mobile){
     p {font-size: 1.5rem;}
     .main_btn {
-        margin: 5vw auto;
+        margin: 3vw auto;
         width: 200px;
         a {
         padding: 2vw;

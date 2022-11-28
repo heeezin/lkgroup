@@ -14,7 +14,7 @@
                 data-sal="slide-up"
                 data-sal-delay="700"    
             >
-                <a href="/">쇼핑몰 바로가기</a>
+                <a href="https://meflex.co.kr" target="_blank">쇼핑몰 바로가기</a>
                 </div>
             </div>
         </div>
@@ -58,6 +58,7 @@ export default {
             font-weight: 700;
             display: block;
             padding: 1vw;
+            padding: 3vw;
         }
     }
 }
@@ -73,6 +74,7 @@ export default {
         .secInner{
             .introImg {
             .backImg {
+                height: 80%;
                 img {
                     left: 0;
                     top: 28%;
@@ -82,6 +84,11 @@ export default {
 
             }
         }
+        }
+        .main_btn {
+            a {
+                font-size: 1.1rem;
+            }
         }
     }
 }
@@ -99,6 +106,11 @@ export default {
 
             }
         }
+        }
+        .main_btn {
+            a {
+                font-size: 1.1rem;
+            }
         }
     }
 }

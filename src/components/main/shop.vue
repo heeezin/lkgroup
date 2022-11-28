@@ -34,7 +34,7 @@
                 data-sal="slide-up"
                 data-sal-delay="700"    
             >
-                <a href="/">자세히 보기</a>
+                <router-link to="/meflex">자세히 보기</router-link>
             </div>
     </div>
         </div>
@@ -175,7 +175,7 @@ export default {
 @media (max-width: $Smobile){
     .main {
         .main_inner {
-            padding-top: 140%;
+            padding-top: 104%;
             .main_txt {
                 p {font-size: 1.3rem;}
             }

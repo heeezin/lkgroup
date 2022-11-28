@@ -1,5 +1,4 @@
 <template>
-
 <div class="section" style="background:#946060">
         <div class="creator">
             <div class="creator_inner">
@@ -12,7 +11,7 @@
                         data-sal="slide-up"
                         data-sal-delay="700"    
                     >
-                        <a href="/">자세히 보기</a>
+                        <router-link to="/creator">자세히 보기</router-link>
                     </div>
                 </div>
             </div>
@@ -46,6 +45,7 @@ export default {
 .main_btn {
     position: absolute;
     z-index: 100;
-    bottom: 0;
+    bottom: 3%;
+    left: 27%;
 }
 </style>

@@ -96,16 +96,22 @@
         .foot_inner {
             font-size: 1rem;
             h4 {
-                font-size: 2.1rem;
+                font-size: 1.8rem;
             }
             .foot_info {
                 .sns {
                     a {
                         padding-right: 1%;
+                        img {
+                            width: 35px;
+                        }
                     }
                 }
                 .info{
                     font-size: 0.8rem;
+                    address {
+                        font-size: 0.8rem;
+                    }
                     .copy {
                         padding-top: 10%;
                     }

@@ -5,7 +5,7 @@
                     <span>MEFLEX ENTERTAINMENT<br>ACTOR LINE UP</span>
                 </div>
                 <div class="enterActor" v-for="item in items">
-                    <img :src="item.img" />
+                    <img :src="item.image" />
                 </div>
             </div>
             <div class="btnWrap">
@@ -26,46 +26,46 @@ export default {
         return {
             items: [
                 {
-                    img: "@/assets/images/ad.png"
+                    image: require('@/assets/images/actor1.jpg')
                 },
                 {
-                    img: '@/assets/images/enter2.png'
+                    image: require('@/assets/images/actor2.jpg')
                 },
                 {
-                    img: '@/assets/images/enter3.png'
+                    image: require('@/assets/images/actor3.jpg')
                 },
                 {
-                    img: '@/assets/images/enter.png'
+                    image: require('@/assets/images/actor4.jpg')
                 },
                 {
-                    img: '@/assets/images/enter2.png'
+                    image: require('@/assets/images/actor5.jpg')
                 },
                 {
-                    img: '@/assets/images/enter3.png'
+                    image: require('@/assets/images/actor6.jpg')
                 },
                 {
-                    img: '@/assets/images/enter.png'
+                    image: require('@/assets/images/actor7.jpg')
                 },
                 {
-                    img: '@/assets/images/enter2.png'
+                    image: require('@/assets/images/actor8.jpg')
                 },
                 {
-                    img: '@/assets/images/enter3.png'
+                    image: require('@/assets/images/actor9.jpg')
                 },
                 {
-                    img: '@/assets/images/enter3.png'
+                    image: require('@/assets/images/actor10.jpg')
                 },
                 {
-                    img: '@/assets/images/enter3.png'
+                    image: require('@/assets/images/actor11.jpg')
                 },
                 {
-                    img: '@/assets/images/enter3.png'
+                    image: require('@/assets/images/actor12.jpg')
                 },
                 {
-                    img: '@/assets/images/enter3.png'
+                    image: require('@/assets/images/actor13.jpg')
                 },
                 {
-                    img: '@/assets/images/enter3.png'
+                    image: require('@/assets/images/actor14.jpg')
                 }
             ]
         }
