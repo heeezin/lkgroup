@@ -71,15 +71,29 @@ export default {
 }
 .coverSwiper .swiper-slide:nth-child(2) {
     background: url('@/assets/images/creat2.png') center center/cover no-repeat;
-}.coverSwiper .swiper-slide:nth-child(3) {
+}
+.coverSwiper .swiper-slide:nth-child(3) {
     background: url('@/assets/images/creat3.png') center center/cover no-repeat;
-}.coverSwiper .swiper-slide:nth-child(4) {
+}
+.coverSwiper .swiper-slide:nth-child(4) {
     background: url('@/assets/images/creat4.png') center center/cover no-repeat;
-}.coverSwiper .swiper-slide:nth-child(5) {
+}
+.coverSwiper .swiper-slide:nth-child(5) {
     background: url('@/assets/images/creat5.png') center center/cover no-repeat;
-}.coverSwiper .swiper-slide:nth-child(6) {
+}
+.coverSwiper .swiper-slide:nth-child(6) {
     background: url('@/assets/images/creat6.png') center center/cover no-repeat;
 }
+.coverSwiper .swiper-slide:nth-child(7) {
+    background: url('@/assets/images/creat7.png') center center/cover no-repeat;
+}
+.coverSwiper .swiper-slide:nth-child(8) {
+    background: url('@/assets/images/creat8.png') center center/cover no-repeat;
+}
+.coverSwiper .swiper-slide:nth-child(9) {
+    background: url('@/assets/images/creat9.png') center center/cover no-repeat;
+}
+
 
 .swiper-slide img {
     display: block;

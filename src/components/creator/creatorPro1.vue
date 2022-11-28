@@ -88,12 +88,32 @@
             </div>
             <div class="profile">
                 <div class="profImg">
-                    <img src="@/assets/images/actor7.jpg" alt="">
+                    <img src="@/assets/images/creat7.png" alt="">
                 </div>
                 <!-- <div class="profTxt">
                     <a href=""><p>texttexttexttexttexttext</p></a>
                     <a href=""><p>배우 한은선</p></a>
                 </div> -->
+                <div class="profSns">
+                    <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="/"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profImg">
+                    <img src="@/assets/images/creat8.png" alt="">
+                </div>
+                <div class="profSns">
+                    <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="/"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profImg">
+                    <img src="@/assets/images/creat9.png" alt="">
+                </div>
                 <div class="profSns">
                     <a href="/"><i class="fa-brands fa-instagram"></i></a>
                     <a href="/"><i class="fa-brands fa-tiktok"></i></a>

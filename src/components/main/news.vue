@@ -56,6 +56,9 @@ export default {
         padding: 1vw;
     }
 }
+.sec_tit {
+    h3 {font-size: 2.2rem;}
+}
 @media (max-width: $mobile){
     p {font-size: 1.5rem;}
     .main_btn {
