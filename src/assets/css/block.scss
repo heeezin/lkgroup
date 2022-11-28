@@ -18,14 +18,13 @@ span {
         top: 0;
     }
     .secInner {
-        padding: 6% 0 0;
+        padding: 120px 30px;
         display: flex;
         justify-content: space-around;
     .nftLogo {
         width: 40%;
         span {
             display: block;
-            padding: 7%;
             color: var(--text);
         }
         p {
@@ -99,14 +98,12 @@ span {
 @media (max-width: $tablet) {
     .section {
         .secInner {
-            width: 90%;
             margin: auto;
             display: block;
-            padding-top: 35%;
             .nftLogo, .nftTxt {
                 width: 100%;
                 img {
-                    height: 40vw;
+                    height: 40%;
                     width: 40vw;
                 }
             }
@@ -157,10 +154,9 @@ span {
     }
     .section {
         .secInner {
-            padding-top: 25%;
             .nftLogo {
                 span {
-                    padding: 5%;
+                    padding-bottom: 3%;
                 }
             }
             .nftTxt {
@@ -200,6 +196,9 @@ span {
     }
     .section {
         .secInner {
+            .introLeft {
+                height: 40vh;
+            }
             .nftTxt {
                 .txtWrap {
                     .txtBox {

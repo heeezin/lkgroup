@@ -48,7 +48,7 @@ p {
 .market {
     background: url('@/assets/images/marketBg.png') center center/cover no-repeat;
     .secInner {
-        padding-bottom: 0;
+        padding:0;
         .nftLogo {
         .nftImg {
         
@@ -97,6 +97,7 @@ p {
         background: url('@/assets/images/marketBgM.png') center center /cover no-repeat;
         .secInner {
             width: 100%;
+            padding: 120px 0;
             .nftRight {
                 width: 100%;
                 .nftTxt {
@@ -119,6 +120,14 @@ p {
         font-size: 0.7rem;
     }
 }
+@media screen and (min-width: $Smobile) and (max-width: $mobile) {  
+    .main_btn {
+        a {
+            font-size: 1rem;
+        }
+    }
+    
+}
 @media (max-width: $Smobile) {
     p {
             font-size: 0.8rem;
@@ -127,6 +136,9 @@ p {
     .market {
         
         .secInner {
+            .introLeft {
+                height: 40vh;
+            }
             .nftImg {
         
                 img { 
@@ -135,12 +147,17 @@ p {
             }
             .nftRight {
                 .nftImg {
-                    padding: 10% 0;
+                    padding: 5% 0;
                     img {
                         width: 30%;
                     }
                 }
             }
+        }
+    }
+    .main_btn {
+        a {
+            font-size: 1rem;
         }
     }
 }
