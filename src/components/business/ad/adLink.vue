@@ -55,9 +55,6 @@ export default {
                 background: url('@/assets/images/Group 18.png')  center center /cover no-repeat;
                     }
                 }
-                .btnWrap {
-                    padding-top: 30%;
-                }
                 
 }
 </style>

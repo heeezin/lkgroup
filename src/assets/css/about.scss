@@ -22,7 +22,6 @@ p {
                 font-size: 2rem;
             }
             span {
-                font-weight: 700;
             }
         }
         
@@ -90,8 +89,8 @@ p {
 }
 @media (max-width: $Smobile) {
     h3 {font-size: 1.5rem;}
-    p { 
-        font-size: 0.9rem;
+    p, span { 
+        font-size: 0.8rem;
         padding-top: 6%;
     }
     .section {

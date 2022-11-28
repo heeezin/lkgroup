@@ -105,7 +105,6 @@ export default {
         }
     }
 }
-h3 {padding-bottom: 7%;}
 @media (max-width: $mobile) {
     .main {
         .main_inner {

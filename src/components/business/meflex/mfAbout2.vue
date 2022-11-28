@@ -95,7 +95,7 @@ export default {
                 .backImg {
                     img {
                         width: 80%;
-                        height: 35%;
+                        height: 31%;
                         left: -8%;
                         top: 31%;
                         &:last-child {
