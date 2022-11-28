@@ -182,7 +182,6 @@ export default {
         }
     }
     .btnWrap {
-        padding-top: 81%;
     }
     .section {
         .secInner {
