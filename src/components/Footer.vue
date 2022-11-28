@@ -4,13 +4,13 @@
             <div class="foot_info">
                 <h4>CONNECT WITH US</h4>
                 <div class="sns">
-                    <a href="/" target="_blank">
+                    <a href="https://www.instagram.com/meflex_official/" target="_blank">
                         <img src="../assets/images/sns1.png" alt="">
                     </a>
-                    <a href="/" target="_blank">
+                    <a href="https://www.facebook.com/meflex.mall" target="_blank">
                         <img src="../assets/images/sns2.png" alt="">
                     </a>
-                    <a href="/" target="_blank">
+                    <a href="https://www.youtube.com/@meflex3005" target="_blank">
                         <img src="../assets/images/sns3.png" alt="">
                     </a>
                 </div>

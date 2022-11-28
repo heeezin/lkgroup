@@ -105,7 +105,7 @@
                     <img src="@/assets/images/creat8.png" alt="">
                 </div>
                 <div class="profSns">
-                    <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/jihogivenchy/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <a href="/"><i class="fa-brands fa-tiktok"></i></a>
                     <a href="/"><i class="fa-brands fa-youtube"></i></a>
                 </div>
