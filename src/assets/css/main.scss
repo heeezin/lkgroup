@@ -98,6 +98,13 @@ p {font-size: 1.5rem;}
     padding: 5%;
   }
 }
+@media screen and (min-width: $Smobile) and (max-width: $mobile) {
+  .main_btn {
+    a {
+      font-size: 1.2rem;
+    }
+  }
+}
 @media (max-width: $Smobile){
   .main {
     .main_inner {

@@ -43,8 +43,6 @@ export default {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    width: 300px;
-    height: 300px;
     &:nth-child(1) {
         background: url('http://me-flex.co.kr/img/news/0001.png') center center/cover no-repeat;
     }
@@ -86,7 +84,7 @@ export default {
 }
 @media (max-width: 600px) {
     .swiper-slide {
-        width: 400px !important;
+        width: 350px !important;
     }
 }
 </style>

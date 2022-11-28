@@ -37,7 +37,7 @@ export default {
     
     .news {
         width: 100%;
-        height: 60vh;
+        height: 55vh;
         background: var(--bg);
     }
     .main_btn {
@@ -62,7 +62,7 @@ export default {
 @media (max-width: $mobile){
     p {font-size: 1.5rem;}
     .main_btn {
-        margin: 3vw auto;
+        margin: 7% auto;
         width: 200px;
         a {
         padding: 2vw;
