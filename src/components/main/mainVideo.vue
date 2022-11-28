@@ -2,7 +2,7 @@
 
     <div class="section" v-if="showHeader">
       <video controls autoplay loop muted id="player">
-          <source src="http://lkpartnersinc.co.kr/img/video/mefelx_video01.mp4">
+          <source src="http://me-flex.co.kr/newlk/meflex_YongSiu.mp4">
       </video>
       <!-- <div class="playBtn">
         <button v-on:click="unmute()"></button>
