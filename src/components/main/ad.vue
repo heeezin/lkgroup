@@ -79,14 +79,14 @@ export default {
         .main_inner {
             text-align: center;
             width: 100%;
-            padding-top: 138%;
+            padding-top: 80%;
         }
     }
 }
 @media screen and (min-width: $Smobile) and (max-width: $mobile) {
     .main {
         .main_inner {
-            padding-top: 65vw;
+            padding-top: 120%;
         }
     }
 }

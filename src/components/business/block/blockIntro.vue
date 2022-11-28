@@ -61,7 +61,6 @@ p {
     background: url('@/assets/images/nft1.png') center center /cover no-repeat;
     color: var(--text);
     .secInner {
-        padding-top: 15%;
         h3 {
             font-size: 2.7rem;
         }
@@ -73,7 +72,6 @@ p {
     .introSec {
         background: url('@/assets/images/nftM1.png') center center /cover no-repeat;
         .secInner {
-            padding-top: 33%;
             h3 {
             font-size: 1.7rem;
         }

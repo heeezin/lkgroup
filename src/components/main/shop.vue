@@ -159,8 +159,8 @@ export default {
     .section {
         .secInner {
             .shopImgBack {
-                width: 60%;
-                height: 40%;
+                width: 70%;
+                height: 33%;
             .shopImg {
             img {
                 width: 300px;
@@ -177,10 +177,7 @@ export default {
         .main_inner {
             padding-top: 104%;
             .main_txt {
-                p {font-size: 1.3rem;}
-            }
-            .main_txt {
-                p {font-size: 1.2rem;}
+                p {font-size: 1rem;}
             }
         }
     }

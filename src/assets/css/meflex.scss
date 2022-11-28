@@ -121,15 +121,19 @@
     .section {
         .secInner{
             padding: 120px 30px;
+            .introTxt {
+                h4 {
+                    font-size: 1.1rem;
+                }
+            }
             .introImg {
             .backImg {
                 width: 70%;
-                height: vh;
                 img {
                     left: 0;
                     top: 28%;
                     width: 90%;
-                    height: 33vh;
+                    height: 90%;
                 }
 
             }

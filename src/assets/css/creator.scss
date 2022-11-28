@@ -31,7 +31,7 @@
             padding-bottom: 5%;
             a {
                 font-size: 4rem;
-                padding: 0 10px;
+                padding: 0 5%;
                 display: inline-block;
                 color: var(--text);
             }
@@ -58,6 +58,12 @@
     .main_inner {
         .profile {
             width: 100%;
+            .profSns {
+                a {
+                    font-size: 3rem;
+                    padding: 0 3%;
+                }
+            }
             .profImg {
                 img {
                     width: 100%;

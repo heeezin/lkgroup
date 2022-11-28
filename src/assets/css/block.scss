@@ -102,6 +102,7 @@ span {
             width: 90%;
             margin: auto;
             display: block;
+            padding-top: 35%;
             .nftLogo, .nftTxt {
                 width: 100%;
                 img {
@@ -114,8 +115,8 @@ span {
                 .icon {
                     img {
                         padding-bottom: 5%;
-                        width: 83%;
-                        height: 83%;
+                        width: 73%;
+                        height: 73%;
                     }
                 }
                 .nftImg {
@@ -125,6 +126,7 @@ span {
             }
             .introLeft {
                 width: 100%;
+                height: 45vh;
             }
             .introRight {
                 padding-top: 10%;
@@ -155,11 +157,10 @@ span {
     }
     .section {
         .secInner {
-            padding-top: 15%;
-
+            padding-top: 25%;
             .nftLogo {
                 span {
-                    padding-bottom: 7%;
+                    padding: 5%;
                 }
             }
             .nftTxt {
@@ -187,7 +188,7 @@ span {
             }
             .nftImg {
                 img {
-                    width: 45%;
+                    width: 40%;
                 }
             }
         }

@@ -132,6 +132,7 @@ export default {
             }
             .introImg {
             .backImg {
+                height: 35vh;
                 img {
                     width: 60vw;
                     height: 24vh;

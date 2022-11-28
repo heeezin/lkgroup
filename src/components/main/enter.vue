@@ -113,7 +113,7 @@ h3 {padding-bottom: 7%;}
             padding: 80% 4% 0;
         }
     }
-    p {font-size: 1.5rem;}
+    p {font-size: 1.3rem;}
     .main_btn {
         margin: 5vw auto;
         width: 200px;

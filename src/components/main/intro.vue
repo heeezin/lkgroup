@@ -107,7 +107,7 @@ export default {
     }
 }
 @media (max-width: $mobile){
-    p {font-size: 1.5rem;}
+    p {font-size: 1.3rem;}
     .main_btn {
         margin: 5vw auto;
         width: 200px;
