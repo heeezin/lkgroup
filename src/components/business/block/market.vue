@@ -98,7 +98,7 @@ p {
         background: url('@/assets/images/marketBgM.png') center center /cover no-repeat;
         .secInner {
             width: 100%;
-            padding: 120px 0;
+            padding: 120px 0 0;
             .nftLogo {
                 .icon {
                     img { padding-bottom: 2%;}
@@ -134,6 +134,7 @@ p {
     }
     .market {
         .secInner {
+            padding: 100px 0 0;
             .nftRight {
                 .nftImg {
                     img {

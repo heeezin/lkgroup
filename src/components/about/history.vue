@@ -17,7 +17,5 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/css/reset.scss";
 @import '@/assets/css/about.scss';
-.fp-watermark {
-    display: none !important;
-}
+
 </style>

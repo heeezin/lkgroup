@@ -46,4 +46,6 @@ components: { Header, MfAbout, MfAbout2, MfAbout3},
 @import "@/assets/css/reset.scss";
 @import "@/assets/css/main.scss";
 @import "@/assets/css/meflex.scss";
+
+
 </style>
