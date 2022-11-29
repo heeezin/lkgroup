@@ -58,7 +58,6 @@ export default {
             font-weight: 700;
             display: block;
             padding: 1vw;
-            padding: 3vw;
         }
     }
 }

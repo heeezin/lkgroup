@@ -21,6 +21,8 @@ span {
         padding: 120px 30px;
         display: flex;
         justify-content: space-around;
+        align-items: center;
+        height: 72vh;
     .nftLogo {
         width: 40%;
         span {
@@ -36,10 +38,7 @@ span {
         }
         
         img { 
-            width: 45vw;
-            height: 40vh;
-            &:last-child {
-            }
+            width: 49%;
         }
     }
     .nftTxt {

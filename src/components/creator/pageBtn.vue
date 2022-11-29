@@ -37,7 +37,7 @@ export default {
     height: 100%;
 }
 .page {
-    padding-top: 20%;
+    padding-top: 5%;
     width: 100%;
     display: flex;
     justify-content: center;

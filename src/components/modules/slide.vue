@@ -13,7 +13,6 @@
         <swiper-slide></swiper-slide>
         <swiper-slide></swiper-slide>
         <swiper-slide></swiper-slide>
-        <swiper-slide></swiper-slide>
     </swiper>
 </template>
 <script>
@@ -50,15 +49,12 @@ export default {
         background: url('http://me-flex.co.kr/img/news/0002.png') center center/cover no-repeat;
     }
     &:nth-child(3) {
-        background: url('http://me-flex.co.kr/img/news/0003.png') center center/cover no-repeat;
-    }
-    &:nth-child(4) {
         background: url('http://me-flex.co.kr/img/news/0004.png') center center/cover no-repeat;
     }
-    &:nth-child(5) {
+    &:nth-child(4) {
         background: url('http://me-flex.co.kr/img/news/0005.png') center center/cover no-repeat;
     }
-    &:nth-child(6) {
+    &:nth-child(5) {
         background: url('http://me-flex.co.kr/img/news/0006.png') center center/cover no-repeat;
     }
 
