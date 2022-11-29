@@ -170,6 +170,11 @@ export default {
     }
         }
     }
+    .main {
+        .main_inner {
+            padding-top: 106%;
+        }
+    }
 }
 
 @media (max-width: $Smobile){

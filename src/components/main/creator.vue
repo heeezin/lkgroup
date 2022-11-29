@@ -46,6 +46,11 @@ export default {
     position: absolute;
     z-index: 100;
     bottom: 3%;
-    left: 27%;
+    left: 45%;
+}
+@media (max-width: 1024px) {
+    .main_btn {
+        left: 35%;
+    }
 }
 </style>

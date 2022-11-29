@@ -81,7 +81,6 @@ export default {
 
 .section {
     .secInner {
-        padding: 120px 30px 30px;
         overflow: hidden;
         display: block;
     }

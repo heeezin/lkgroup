@@ -67,7 +67,7 @@
             padding: 120px 30px;
             display: block;
             .enterActor {
-                width: 32%;
+                width: 15%;
             }
             .enterTit {
                 width: 100%;
@@ -95,7 +95,10 @@
 @media (max-width: $mobile) {
 .section {
     .secInner {
-        padding: 120px 30px 30px;
+        padding: 100px 30px 30px;
+        .enterActor {
+            width: 24%;
+        }
         .enterImg {
             img {
                 height: 34vh;
@@ -116,9 +119,7 @@
     }
     .section {
         .secInner {
-            .enterActor {
-                width: 24%;
-            }
+            
             .enterTit {
                 span {
                     font-size: 1.3rem;

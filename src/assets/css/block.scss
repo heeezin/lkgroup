@@ -146,13 +146,17 @@ span {
 }
 @media (max-width: $mobile) {
     span {
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
     p {
         font-size: 1.1rem;
     }
+    h3 {
+        font-size: 1.3rem;
+    }
     .section {
         .secInner {
+            padding: 120px 30px;
             .nftLogo {
                 span {
                     padding-bottom: 3%;
@@ -183,18 +187,20 @@ span {
             }
             .nftImg {
                 img {
-                    width: 40%;
+                    width: 39%;
                 }
             }
         }
     }
 }
 @media (max-width: $Smobile) {
+    
     span {
         font-size: 1.3rem;
     }
     .section {
         .secInner {
+            padding: 100px 30px;
             .introLeft {
                 height: 40vh;
             }
