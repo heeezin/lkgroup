@@ -11,12 +11,9 @@
     .introImg {
         width: 50%;
     .backImg {
-        background: url(@/assets/images/symbol.png) center no-repeat;
-        width: 487px;
-        height: 510px;
-        background-size: 100%;
-        margin: auto;
         padding-top: 10%;
+        margin: auto;
+        width: 500px;
         img {
             width: 500px;
             height: 500px;
@@ -64,11 +61,10 @@
                     font-size: 1.5rem;
                 }
                 .backImg {
-                    width: 80%;
-                    height: 80%;
                     padding-top: 10%;
+                    text-align: center;
+                    width: 100%;
                     img {
-                        width: 90%;
                     }
                 }
             }
@@ -89,13 +85,9 @@
             .introImg {
                 
             .backImg {
-                width: 80%;
-                height: 37vh;
                 img {
-                    left: 0;
-                    top: 31%;
-                    width: 100%;
-                    height: 33vh;
+                    width: 66%;
+                    height: 66%;
                 }
 
             }
@@ -127,12 +119,7 @@
             }
             .introImg {
             .backImg {
-                width: 70%;
                 img {
-                    left: 0;
-                    top: 28%;
-                    width: 90%;
-                    height: 80%;
                 }
 
             }

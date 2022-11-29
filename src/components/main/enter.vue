@@ -100,7 +100,7 @@ export default {
                 color: #fff;
                 font-weight: 700;
                 display: block;
-                padding: 1vw;
+                padding: 2vw;
             }
         }
     }

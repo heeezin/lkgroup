@@ -4,8 +4,7 @@
             <div class="introImg">
                 <mf-tit/>
                 <div class="backImg">
-                    <img src="@/assets/images/meflex3.png" alt="">
-                    <img src="@/assets/images/meflex2.png" alt="">
+                    <img src="@/assets/images/meflex_2.png" alt="">
                 </div>
             </div>
             <div class="introTxt">
@@ -28,34 +27,6 @@ export default {
 @import "@/assets/css/meflex.scss";
 .section {
     .secInner {
-        .introImg {
-            .Title {
-                p {
-                    font-size: 1.3rem;
-                }
-            }
-            .backImg {
-                display: flex;
-                margin: auto;
-                img {
-                    width: 450px;
-                    height: 400px;
-                    position: absolute;
-                    left: 7%;
-                    z-index: 100;
-                    top: 40%;
-                    &:last-child {
-                        left: 22%;
-                        top: 30%;
-                        z-index: 1;
-                    }
-                }
-
-            }
-        }
-        .introTxt {
-            z-index: 100;
-        }
     }
 }
 
@@ -69,12 +40,7 @@ export default {
 .section {
     .secInner {
         .introImg {
-            .backImg {
-                img {
-                    width: 400px;
-                    height: 350px;
-                }
-            }   
+            
         }
         .introTxt {
             h4 {font-size: 1.5rem;}
@@ -87,10 +53,7 @@ export default {
         .secInner {
             .introImg {
                 .backImg {
-                    img {
-                        width: 89%;
-                        height: 40vh;
-                    }
+                    
                 }
                 .Title {
                 p {
@@ -110,12 +73,7 @@ export default {
     .section {
         .secInner {
             .introImg {
-                .backImg {
-                    img {
-                        width: 63%;
-                        height: 26vh;
-                    }
-                }
+                
             }
         }
     }   
@@ -131,14 +89,7 @@ export default {
                 }
             }
             .introImg {
-            .backImg {
-                height: 35vh;
-                img {
-                    width: 60vw;
-                    height: 24vh;
-                }
-
-            }
+            
         }
         }
     }

@@ -49,6 +49,7 @@ export default {
     border-radius: 15px;
     font-size: 1.5rem;
     text-align: center;
+    left: 40%;
     a {
         color: #fff;
         font-weight: 700;
@@ -64,6 +65,7 @@ export default {
     .main_btn {
         margin: 7% auto;
         width: 200px;
+        left: 24%;
         a {
         padding: 2vw;
         }

@@ -4,8 +4,7 @@
             <div class="introImg">
                 <mf-tit/>
                 <div class="backImg">
-                    <img src="@/assets/images/meflex4.png" alt="">
-                    <img src="@/assets/images/meflex5.png" alt="">
+                    <img src="@/assets/images/meflex_3.png" alt="">
                 </div>
             </div>
             <div class="introTxt">
@@ -35,22 +34,6 @@ export default {
                 }
             }
             .backImg {
-                display: flex;
-                margin: auto;
-                img {
-                    width: 520px;
-                    height: 450px;
-                    position: absolute;
-                    left: 7%;
-                    z-index: 100;
-                    top: 29%;
-                    &:last-child {
-                        left: 20%;
-                        top: 30%;
-                        z-index: 1;
-                        transform: rotate(15deg);
-                    }
-                }
 
             }
         }
@@ -68,14 +51,6 @@ export default {
         .secInner{
             .introImg {
             .backImg {
-                img {
-                    left: 0;
-                    top: 29%;
-                    &:last-child {
-                        left: 13%;
-                        top: 30%;
-                    }
-                }
 
             }
             
@@ -93,17 +68,6 @@ export default {
         .secInner {
             .introImg {
                 .backImg {
-                    img {
-                        width: 80%;
-                        height: 31%;
-                        left: -8%;
-                        top: 31%;
-                        &:last-child {
-                            left: 11%;
-                            top: 32%;
-                            z-index: 100;
-                        }
-                    }
                 }
             }
         }
@@ -123,14 +87,6 @@ export default {
             }
             .introImg {
             .backImg {
-                width: 80%;
-                height: 30vh;
-                img {
-                    left: 0;
-                    top: 31%;
-                    width: 80%;
-                    height: 33%;
-                }
 
             }
         }

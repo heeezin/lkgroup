@@ -3,15 +3,7 @@
     <div class="section">
         <div class="main_inner">
             <h3>NEWS</h3>
-            <div class="news">
-                <div class="newsImg">
-                    <img src="http://me-flex.co.kr/img/news/0004.png" alt="">
-                </div>
-                <div class="newsTxt">
-                    <a href="https://www.nbntv.co.kr/news/articleView.html?idxno=992608" target="_blank"><span>2022.09.14 03:25</span></a>
-                    <a href="https://www.nbntv.co.kr/news/articleView.html?idxno=992608" target="_blank"><p>조은숙, 한국 대표하는 1990년대 데뷔 50대 여배우…작품활동 및 최근 방송 영상은?</p></a>
-                </div>
-            </div>
+            
             <div class="news">
                 <div class="newsImg">
                     <img src="http://me-flex.co.kr/img/news/0005.png" alt="">

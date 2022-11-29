@@ -8,7 +8,7 @@
                     <span>NOW<br>MEFLEX</span>
                 </div>
                 <div class="backImg">
-                    <img src="@/assets/images/meflex1.png" alt="">
+                    <img src="@/assets/images/meflex_1.png" alt="">
                 </div>
             </div>
             <div  class="introTxt">

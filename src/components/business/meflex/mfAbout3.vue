@@ -4,7 +4,7 @@
             <div class="introImg">
                 <mf-tit/>
                 <div class="backImg">
-                    <img src="@/assets/images/meflex6.png" alt="">
+                    <img src="@/assets/images/meflex_4.png" alt="">
                 </div>
             </div>
             <div class="introTxt">
@@ -73,13 +73,6 @@ export default {
         .secInner{
             .introImg {
             .backImg {
-                height: 80%;
-                img {
-                    left: 0;
-                    top: 28%;
-                    width: 100%;
-                    height: 100%;
-                }
 
             }
         }
@@ -96,12 +89,6 @@ export default {
         .secInner{
             .introImg {
             .backImg {
-                width: 70%;
-                height: 70%;
-                img {
-                    width: 100%;
-                    height: 100%;
-                }
 
             }
         }

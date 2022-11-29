@@ -152,7 +152,7 @@ export default {
         }
     }
     .btnWrap {
-        padding-top: 45%;
+        padding-top: 50%;
     }
 }
 @media screen and (min-width: $Smobile) and (max-width: $mobile){
@@ -172,7 +172,7 @@ export default {
     }
     .main {
         .main_inner {
-            padding-top: 106%;
+            padding-top: 95%;
         }
     }
 }
